@@ -60,11 +60,24 @@ CREATE TYPE "public"."AuditEntity" AS ENUM (
     'MATERIAL_REQUEST',
     'VOLUNTEER_REQUEST',
     'USER',
-    'SETTING'
+    'SETTING',
+    'DEMAND'
 );
 
 
 ALTER TYPE "public"."AuditEntity" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."DemandStatus" AS ENUM (
+    'REGISTERED',
+    'PROTOCOLED',
+    'IN_FOLLOW_UP',
+    'RESOLVED',
+    'CANCELLED'
+);
+
+
+ALTER TYPE "public"."DemandStatus" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."MaterialStatus" AS ENUM (
@@ -136,6 +149,46 @@ CREATE TABLE IF NOT EXISTS "public"."daily_reports" (
 
 
 ALTER TABLE "public"."daily_reports" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."demand_timeline_events" (
+    "id" "uuid" NOT NULL,
+    "demandId" "uuid" NOT NULL,
+    "eventType" "text" NOT NULL,
+    "fromStatus" "text",
+    "toStatus" "text",
+    "note" "text",
+    "userId" "uuid" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."demand_timeline_events" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."demandas" (
+    "id" "uuid" NOT NULL,
+    "fullName" "text" NOT NULL,
+    "phone" "text" NOT NULL,
+    "type" "text" NOT NULL,
+    "tag" "text" NOT NULL,
+    "neighborhood" "text" NOT NULL,
+    "city" "text" NOT NULL,
+    "fullAddress" "text" NOT NULL,
+    "referencePoint" "text",
+    "description" "text" NOT NULL,
+    "protocolNumber" "text",
+    "protocolDate" "date",
+    "responsibleAssessor" "text",
+    "status" "public"."DemandStatus" DEFAULT 'REGISTERED'::"public"."DemandStatus" NOT NULL,
+    "notes" "text",
+    "userId" "uuid" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."demandas" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."material_requests" (
@@ -224,6 +277,16 @@ ALTER TABLE ONLY "public"."daily_reports"
 
 
 
+ALTER TABLE ONLY "public"."demand_timeline_events"
+    ADD CONSTRAINT "demand_timeline_events_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."demandas"
+    ADD CONSTRAINT "demandas_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."material_requests"
     ADD CONSTRAINT "material_requests_pkey" PRIMARY KEY ("id");
 
@@ -261,6 +324,30 @@ CREATE INDEX "daily_reports_tag_idx" ON "public"."daily_reports" USING "btree" (
 
 
 CREATE UNIQUE INDEX "daily_reports_userId_date_tag_key" ON "public"."daily_reports" USING "btree" ("userId", "date", "tag");
+
+
+
+CREATE INDEX "demand_timeline_events_demandId_createdAt_idx" ON "public"."demand_timeline_events" USING "btree" ("demandId", "createdAt");
+
+
+
+CREATE INDEX "demandas_createdAt_idx" ON "public"."demandas" USING "btree" ("createdAt");
+
+
+
+CREATE INDEX "demandas_neighborhood_idx" ON "public"."demandas" USING "btree" ("neighborhood");
+
+
+
+CREATE INDEX "demandas_status_idx" ON "public"."demandas" USING "btree" ("status");
+
+
+
+CREATE INDEX "demandas_tag_idx" ON "public"."demandas" USING "btree" ("tag");
+
+
+
+CREATE INDEX "demandas_type_idx" ON "public"."demandas" USING "btree" ("type");
 
 
 
@@ -303,6 +390,21 @@ ALTER TABLE ONLY "public"."audit_logs"
 
 ALTER TABLE ONLY "public"."daily_reports"
     ADD CONSTRAINT "daily_reports_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."demand_timeline_events"
+    ADD CONSTRAINT "demand_timeline_events_demandId_fkey" FOREIGN KEY ("demandId") REFERENCES "public"."demandas"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."demand_timeline_events"
+    ADD CONSTRAINT "demand_timeline_events_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."demandas"
+    ADD CONSTRAINT "demandas_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 
 
@@ -514,6 +616,18 @@ GRANT ALL ON TABLE "public"."audit_logs" TO "service_role";
 GRANT ALL ON TABLE "public"."daily_reports" TO "anon";
 GRANT ALL ON TABLE "public"."daily_reports" TO "authenticated";
 GRANT ALL ON TABLE "public"."daily_reports" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."demand_timeline_events" TO "anon";
+GRANT ALL ON TABLE "public"."demand_timeline_events" TO "authenticated";
+GRANT ALL ON TABLE "public"."demand_timeline_events" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."demandas" TO "anon";
+GRANT ALL ON TABLE "public"."demandas" TO "authenticated";
+GRANT ALL ON TABLE "public"."demandas" TO "service_role";
 
 
 
