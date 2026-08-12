@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict EdAMW0h56Fe4j3frTPbZoIyXyXzlcCxEIdD73QNU7IltM25psSTe3fhHWbSEOo8
+-- \restrict o9MawLBgm8d6dTayavUsj33bKnVcsrC9T29hpPXsbeHKVmceg5nXxvqUQDpbb3q
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -277,6 +277,13 @@ b57e0813-62f0-4972-ad69-2bc7104e7c52	UPDATED	DAILY_REPORT	64eabc3c-3409-4374-ad6
 9a90690f-1002-4a05-8810-0eb3536eaf12	CREATED	DAILY_REPORT	89616586-cd24-45a5-aa21-0f6830ae0ff3	Relatório criado (Penha, 2026-08-11)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 21:24:19.133
 0b3c1491-7a39-4c2f-a93c-751a0c14a46f	CREATED	DAILY_REPORT	3e76ef30-3057-4778-a044-353b5da81243	Relatório criado (Valqueire, 2026-08-11)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 21:24:52.863
 9ca8398a-1c1e-44f4-b86d-fa1ed684a177	UPDATED	DAILY_REPORT	f68f489a-5767-4454-ab65-7f5ffdf9bcac	Relatório atualizado (Censo Botafogo, 2026-08-11)	\N	eaa6d959-a24c-4881-a882-061c4cd19902	2026-08-11 23:00:02.689
+545815ff-dd4b-4bbd-ae08-cf103438933a	CREATED	MATERIAL_REQUEST	8e88b89f-9520-4e64-aaf6-816cac24578a	Pedido de material criado (Robson Miotti)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 12:53:38.257
+be53a6c9-a441-4d83-aa13-b6ad3a998bfb	CREATED	DAILY_REPORT	14241a15-2451-48e6-9dfb-4fba85c81d3e	Relatório criado (Camelô * Ambulante * Trabalhadores da Orla, 2026-08-11)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:24:47.568
+6f97f122-3c9b-4aea-857e-5fdf39bfd6bd	UPDATED	DAILY_REPORT	14241a15-2451-48e6-9dfb-4fba85c81d3e	Relatório atualizado (Camelô * Ambulante * Trabalhadores da Orla, 2026-08-11)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:26:27.906
+13432dff-8c68-46e1-ae0f-f52093eb7d76	CREATED	DAILY_REPORT	dd726fce-8272-45f0-9e04-54941630cfc4	Relatório criado (Praça XV, 2026-08-11)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:27:41.963
+ec2cddbe-2393-41d4-bcb6-43b3f8bab191	CREATED	DAILY_REPORT	5fc0f05f-2da3-4534-a7cd-ea0d5d5f1aa0	Relatório criado (Avulso, 2026-08-11)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:37:43.556
+880d7fff-28f1-44bb-bc04-ba8e860a284d	CREATED	DAILY_REPORT	afafdb43-49c1-4af1-8723-e12eba816795	Relatório criado (Praça XV, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:45:03.89
+3f311712-fde4-40d9-b02f-f28717bf0f6a	CREATED	DAILY_REPORT	40a580e2-6439-4319-8254-fe147355c713	Relatório criado (Museu do Amanha, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:46:55.613
 \.
 
 
@@ -285,6 +292,7 @@ b57e0813-62f0-4972-ad69-2bc7104e7c52	UPDATED	DAILY_REPORT	64eabc3c-3409-4374-ad6
 --
 
 COPY "public"."daily_reports" ("id", "date", "tag", "contacts", "replies", "supporters", "materialRequestsCount", "volunteerRequestsCount", "observations", "userId", "createdAt", "updatedAt") FROM stdin;
+40a580e2-6439-4319-8254-fe147355c713	2026-08-12	Museu do Amanha	5	0	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:46:55.594	2026-08-12 15:46:55.594
 b4616526-9392-4246-af3d-8c1238aaec8c	2026-08-07	Nova Iguaçu	48	16	12	0	0	Convite para reunião de lideranças com Reimont	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-07 20:45:58.035	2026-08-07 20:45:58.035
 bb8eaf62-2f90-4a14-b813-3c5f57d0088d	2026-08-10	Avulso	8	4	2	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-10 12:11:30.48	2026-08-10 12:21:46.469
 054b2ebd-ca8b-4143-bdf3-4fdf9478f6e8	2026-08-10	Camelô * Ambulante * Trabalhadores da Orla	10	3	1	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-10 15:22:04.284	2026-08-10 15:22:04.284
@@ -301,6 +309,10 @@ ba9d1e02-a4b3-4311-8fdf-cb80c19a265d	2026-08-11	Avulso	39	39	17	0	0	\N	3cb18ea4-
 89616586-cd24-45a5-aa21-0f6830ae0ff3	2026-08-11	Penha	15	4	0	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 21:24:19.113	2026-08-11 21:24:19.113
 3e76ef30-3057-4778-a044-353b5da81243	2026-08-11	Valqueire	5	2	0	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 21:24:52.848	2026-08-11 21:24:52.848
 f68f489a-5767-4454-ab65-7f5ffdf9bcac	2026-08-11	Censo Botafogo	50	15	7	0	0	\N	eaa6d959-a24c-4881-a882-061c4cd19902	2026-08-11 15:34:58.684	2026-08-11 23:00:02.646
+14241a15-2451-48e6-9dfb-4fba85c81d3e	2026-08-11	Camelô * Ambulante * Trabalhadores da Orla	62	17	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:24:47.533	2026-08-12 13:26:27.889
+dd726fce-8272-45f0-9e04-54941630cfc4	2026-08-11	Praça XV	9	1	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:27:41.948	2026-08-12 13:27:41.948
+5fc0f05f-2da3-4534-a7cd-ea0d5d5f1aa0	2026-08-11	Avulso	7	7	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:37:43.526	2026-08-12 13:37:43.526
+afafdb43-49c1-4af1-8723-e12eba816795	2026-08-12	Praça XV	15	5	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:45:03.853	2026-08-12 15:45:03.853
 \.
 
 
@@ -326,6 +338,7 @@ COPY "public"."demand_timeline_events" ("id", "demandId", "eventType", "fromStat
 --
 
 COPY "public"."material_requests" ("id", "fullName", "phone", "tag", "neighborhood", "city", "fullAddress", "referencePoint", "materials", "materialOther", "quantity", "preferredDate", "preferredTime", "status", "notes", "userId", "assignedToId", "createdAt", "updatedAt") FROM stdin;
+8e88b89f-9520-4e64-aaf6-816cac24578a	Robson Miotti	21996406007	Caxias	Caxias	Caxias	---	\N	{Adesivo}	\N	1	\N	Manhã	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-12 12:53:38.22	2026-08-12 12:53:38.22
 \.
 
 
@@ -420,6 +433,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict EdAMW0h56Fe4j3frTPbZoIyXyXzlcCxEIdD73QNU7IltM25psSTe3fhHWbSEOo8
+-- \unrestrict o9MawLBgm8d6dTayavUsj33bKnVcsrC9T29hpPXsbeHKVmceg5nXxvqUQDpbb3q
 
 RESET ALL;
