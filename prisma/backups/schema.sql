@@ -61,7 +61,8 @@ CREATE TYPE "public"."AuditEntity" AS ENUM (
     'VOLUNTEER_REQUEST',
     'USER',
     'SETTING',
-    'DEMAND'
+    'DEMAND',
+    'WHATSAPP_GROUP'
 );
 
 
@@ -267,6 +268,19 @@ CREATE TABLE IF NOT EXISTS "public"."volunteer_requests" (
 ALTER TABLE "public"."volunteer_requests" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."whatsapp_groups" (
+    "id" "uuid" NOT NULL,
+    "name" "text" NOT NULL,
+    "link" "text" NOT NULL,
+    "userId" "uuid" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."whatsapp_groups" OWNER TO "postgres";
+
+
 ALTER TABLE ONLY "public"."audit_logs"
     ADD CONSTRAINT "audit_logs_pkey" PRIMARY KEY ("id");
 
@@ -304,6 +318,11 @@ ALTER TABLE ONLY "public"."users"
 
 ALTER TABLE ONLY "public"."volunteer_requests"
     ADD CONSTRAINT "volunteer_requests_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."whatsapp_groups"
+    ADD CONSTRAINT "whatsapp_groups_pkey" PRIMARY KEY ("id");
 
 
 
@@ -383,6 +402,10 @@ CREATE INDEX "volunteer_requests_tag_idx" ON "public"."volunteer_requests" USING
 
 
 
+CREATE INDEX "whatsapp_groups_createdAt_idx" ON "public"."whatsapp_groups" USING "btree" ("createdAt");
+
+
+
 ALTER TABLE ONLY "public"."audit_logs"
     ADD CONSTRAINT "audit_logs_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
@@ -430,6 +453,11 @@ ALTER TABLE ONLY "public"."volunteer_requests"
 
 ALTER TABLE ONLY "public"."volunteer_requests"
     ADD CONSTRAINT "volunteer_requests_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."whatsapp_groups"
+    ADD CONSTRAINT "whatsapp_groups_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
@@ -652,6 +680,12 @@ GRANT ALL ON TABLE "public"."users" TO "service_role";
 GRANT ALL ON TABLE "public"."volunteer_requests" TO "anon";
 GRANT ALL ON TABLE "public"."volunteer_requests" TO "authenticated";
 GRANT ALL ON TABLE "public"."volunteer_requests" TO "service_role";
+
+
+
+GRANT ALL ON TABLE "public"."whatsapp_groups" TO "anon";
+GRANT ALL ON TABLE "public"."whatsapp_groups" TO "authenticated";
+GRANT ALL ON TABLE "public"."whatsapp_groups" TO "service_role";
 
 
 

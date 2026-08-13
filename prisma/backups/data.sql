@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict o9MawLBgm8d6dTayavUsj33bKnVcsrC9T29hpPXsbeHKVmceg5nXxvqUQDpbb3q
+-- \restrict bGPmu4qW4vdVVgWZLMhvammMAofSPkVIU0UdKQCWSV3Gr7cfScoGOe9ghWhof3A
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -284,6 +284,21 @@ be53a6c9-a441-4d83-aa13-b6ad3a998bfb	CREATED	DAILY_REPORT	14241a15-2451-48e6-9df
 ec2cddbe-2393-41d4-bcb6-43b3f8bab191	CREATED	DAILY_REPORT	5fc0f05f-2da3-4534-a7cd-ea0d5d5f1aa0	Relatório criado (Avulso, 2026-08-11)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:37:43.556
 880d7fff-28f1-44bb-bc04-ba8e860a284d	CREATED	DAILY_REPORT	afafdb43-49c1-4af1-8723-e12eba816795	Relatório criado (Praça XV, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:45:03.89
 3f311712-fde4-40d9-b02f-f28717bf0f6a	CREATED	DAILY_REPORT	40a580e2-6439-4319-8254-fe147355c713	Relatório criado (Museu do Amanha, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:46:55.613
+f268df6a-e558-484c-b80f-a66c6248dda9	CREATED	WHATSAPP_GROUP	8d25c1f5-f7a7-4a8d-8037-0152f340f37d	Grupo de WhatsApp criado (Leonel de Esquerda com Piedade)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 16:24:35.083
+6e3ead03-3bdd-42dd-a9b8-0ff5ed53af80	CREATED	WHATSAPP_GROUP	553c610f-11f5-446e-aea3-0312fd33f07f	Grupo de WhatsApp criado (TIME LEONEL DE ESQUERDA 🫱🏽‍🫲🏾🌟)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:51:05.856
+c798139c-9a51-4017-8a68-d9968c516fdd	CREATED	WHATSAPP_GROUP	d2331e56-d998-41a5-9cd9-2d811464f99e	Grupo de WhatsApp criado (Leonel de Esquerda com Caxias)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:51:40.323
+24303231-2761-4548-85a3-1d953132e795	CREATED	WHATSAPP_GROUP	43a26819-1dbd-4aef-94f4-16cb668861ab	Grupo de WhatsApp criado (Cachambi fechado com Leonel)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:52:11.218
+a1d14f21-3448-4206-a0f0-eec51e2dea43	CREATED	WHATSAPP_GROUP	941c110a-4ecf-47de-958f-cf2f0a7ece78	Grupo de WhatsApp criado (Leonel de Esquerda e Reimont)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:52:44.505
+48630767-3997-470f-9968-a4b1c15877f9	CREATED	WHATSAPP_GROUP	7b5e264a-45db-43fc-84cd-69ef95a39571	Grupo de WhatsApp criado (VEREADOR LEONEL DE ESQUERDA JUNTO COM CAMELÔS ✊🏾)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:56:10.158
+7972ac66-a0d7-401f-85bb-5f80e7ba1c11	CREATED	WHATSAPP_GROUP	236dc4d2-7162-40cb-bcfa-5fff1c7e9867	Grupo de WhatsApp criado (Leonel de Esquerda + Ilha do Governador)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 17:57:09.027
+2ea31bee-0baf-4bf6-9cd9-207653b6e80b	CREATED	WHATSAPP_GROUP	e057b5b8-6004-4316-bf1e-4d66e65d94ec	Grupo de WhatsApp criado (FAMILIAS COLEGIO FRANÇA E SOUZA)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:57:46.09
+e403e0c5-e580-4de0-b711-84f5402afe45	CREATED	WHATSAPP_GROUP	4dde7495-ed92-47c6-9225-8c9b8f3d7d45	Grupo de WhatsApp criado (Unidos pela Radiossonda ✊🏾)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 17:57:49.899
+a38a65fc-ef31-47af-a74a-8efe6a4e2290	CREATED	WHATSAPP_GROUP	99bf4468-137f-458b-aaae-fcedc8b2b640	Grupo de WhatsApp criado (RUA EMBIRI - INFORMES)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:58:16.317
+c5ea47a2-f0d5-4f30-9912-a08f282b4612	CREATED	WHATSAPP_GROUP	e71fd59a-add2-4b21-971e-d357ae6c9d1f	Grupo de WhatsApp criado (RUA GARFIELD DE ALMEIDA/NABUCO DE ARAUJO - INFORMES)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:59:14.297
+ac620332-3750-48b5-81c3-170eec903bb9	CREATED	WHATSAPP_GROUP	ffe43800-26b8-477c-93df-e2efdb101150	Grupo de WhatsApp criado (TRAVESSA GODINHO DA COSTA/MANGUEIRA - PIEDADE - INFORMES)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 18:00:45.332
+4656c60d-07b3-4e80-b6bd-5df751ccc1a5	CREATED	WHATSAPP_GROUP	f3f70309-8dd7-428c-8102-99fea3fe2ac0	Grupo de WhatsApp criado (Ver. Leonel / Velha Guarda)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 18:03:34.162
+0121d578-cfb5-478f-bdfd-babced0a71aa	CREATED	WHATSAPP_GROUP	3d754dad-3dc5-4583-929d-8e58c45daff4	Grupo de WhatsApp criado (Leonel de Esquerda com Somos Todas Professoras)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 18:05:59.179
+ba5dbba5-7d4e-4315-ac4e-1b2ea2bae0f0	CREATED	DAILY_REPORT	43fd85c5-fd8f-4bcf-a764-754f3e51bdb2	Relatório criado (Avulso, 2026-08-12)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 19:04:06.526
 \.
 
 
@@ -294,6 +309,7 @@ ec2cddbe-2393-41d4-bcb6-43b3f8bab191	CREATED	DAILY_REPORT	5fc0f05f-2da3-4534-a7c
 COPY "public"."daily_reports" ("id", "date", "tag", "contacts", "replies", "supporters", "materialRequestsCount", "volunteerRequestsCount", "observations", "userId", "createdAt", "updatedAt") FROM stdin;
 40a580e2-6439-4319-8254-fe147355c713	2026-08-12	Museu do Amanha	5	0	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:46:55.594	2026-08-12 15:46:55.594
 b4616526-9392-4246-af3d-8c1238aaec8c	2026-08-07	Nova Iguaçu	48	16	12	0	0	Convite para reunião de lideranças com Reimont	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-07 20:45:58.035	2026-08-07 20:45:58.035
+43fd85c5-fd8f-4bcf-a764-754f3e51bdb2	2026-08-12	Avulso	31	31	10	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 19:04:06.497	2026-08-12 19:04:06.497
 bb8eaf62-2f90-4a14-b813-3c5f57d0088d	2026-08-10	Avulso	8	4	2	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-10 12:11:30.48	2026-08-10 12:21:46.469
 054b2ebd-ca8b-4143-bdf3-4fdf9478f6e8	2026-08-10	Camelô * Ambulante * Trabalhadores da Orla	10	3	1	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-10 15:22:04.284	2026-08-10 15:22:04.284
 755a3d25-0fe2-4f47-9701-1dbbfff12730	2026-08-10	Avulso	29	22	5	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-10 16:38:27.93	2026-08-10 16:38:27.93
@@ -367,6 +383,28 @@ af1b9f36-d49a-468b-8bdb-cf2ce010b362	Carlos Augusto	21985978816	Pedregulho	São 
 
 
 --
+-- Data for Name: whatsapp_groups; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "public"."whatsapp_groups" ("id", "name", "link", "userId", "createdAt", "updatedAt") FROM stdin;
+8d25c1f5-f7a7-4a8d-8037-0152f340f37d	Leonel de Esquerda com Piedade	https://chat.whatsapp.com/DZKRJY6noAvLxAXm32QrBw	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 16:24:34.834	2026-08-12 16:24:34.834
+553c610f-11f5-446e-aea3-0312fd33f07f	TIME LEONEL DE ESQUERDA 🫱🏽‍🫲🏾🌟	https://chat.whatsapp.com/Hk8zDaJZAJG6iSG0apAYG6	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:51:05.807	2026-08-12 17:51:05.807
+d2331e56-d998-41a5-9cd9-2d811464f99e	Leonel de Esquerda com Caxias	https://chat.whatsapp.com/GqmIAiYqRMoBElFR2YId2k	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:51:40.306	2026-08-12 17:51:40.306
+43a26819-1dbd-4aef-94f4-16cb668861ab	Cachambi fechado com Leonel	https://chat.whatsapp.com/DklHetJQ8KB94ILi96goJm	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:52:11.205	2026-08-12 17:52:11.205
+941c110a-4ecf-47de-958f-cf2f0a7ece78	Leonel de Esquerda e Reimont	https://chat.whatsapp.com/KKEr3iPsQ4kLnEwDsMs8pl	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 17:52:44.488	2026-08-12 17:52:44.488
+7b5e264a-45db-43fc-84cd-69ef95a39571	VEREADOR LEONEL DE ESQUERDA JUNTO COM CAMELÔS ✊🏾	https://chat.whatsapp.com/KmiXXfmY47d3K44fSaItZb?s=cl&p=a&ilr=1	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:56:10.116	2026-08-12 17:56:10.116
+236dc4d2-7162-40cb-bcfa-5fff1c7e9867	Leonel de Esquerda + Ilha do Governador	https://chat.whatsapp.com/DqdSsF3uQ2Y5BxKVNZNaw5?s=cl&p=a&ilr=1	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 17:57:09.009	2026-08-12 17:57:09.009
+e057b5b8-6004-4316-bf1e-4d66e65d94ec	FAMILIAS COLEGIO FRANÇA E SOUZA	https://chat.whatsapp.com/KP1lRspULq8AfBWc0Sfi6V?s=cl&p=a&ilr=1	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:57:46.073	2026-08-12 17:57:46.073
+4dde7495-ed92-47c6-9225-8c9b8f3d7d45	Unidos pela Radiossonda ✊🏾	https://chat.whatsapp.com/LpHhrVYz3Ye0nT2Os8rfap?s=cl&p=a&ilr=1	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 17:57:49.881	2026-08-12 17:57:49.881
+99bf4468-137f-458b-aaae-fcedc8b2b640	RUA EMBIRI - INFORMES	https://chat.whatsapp.com/BAJPUETu5ASGLFFtefOXxB?s=cl&p=a&ilr=1	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:58:16.301	2026-08-12 17:58:16.301
+e71fd59a-add2-4b21-971e-d357ae6c9d1f	RUA GARFIELD DE ALMEIDA/NABUCO DE ARAUJO - INFORMES	https://chat.whatsapp.com/Jsc9S1eJ5521oCbfQLGJ5A?s=cl&p=a&ilr=1	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 17:59:14.282	2026-08-12 17:59:14.282
+ffe43800-26b8-477c-93df-e2efdb101150	TRAVESSA GODINHO DA COSTA/MANGUEIRA - PIEDADE - INFORMES	https://chat.whatsapp.com/DMcWN7f9ZHuIUJYfXbXbf9?s=cl&p=a&ilr=1	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 18:00:45.314	2026-08-12 18:00:45.314
+f3f70309-8dd7-428c-8102-99fea3fe2ac0	Ver. Leonel / Velha Guarda	https://chat.whatsapp.com/Gvp8lE1tpwVHF1U8UYDE8b?s=cl&p=a&ilr=1	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 18:03:34.076	2026-08-12 18:03:34.076
+3d754dad-3dc5-4583-929d-8e58c45daff4	Leonel de Esquerda com Somos Todas Professoras	https://chat.whatsapp.com/GGb1Ng0VapBB6tA9vdZjBm?s=cl&p=a&ilr=1	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 18:05:59.164	2026-08-12 18:05:59.164
+\.
+
+
+--
 -- Data for Name: buckets; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
 --
 
@@ -433,6 +471,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict o9MawLBgm8d6dTayavUsj33bKnVcsrC9T29hpPXsbeHKVmceg5nXxvqUQDpbb3q
+-- \unrestrict bGPmu4qW4vdVVgWZLMhvammMAofSPkVIU0UdKQCWSV3Gr7cfScoGOe9ghWhof3A
 
 RESET ALL;
