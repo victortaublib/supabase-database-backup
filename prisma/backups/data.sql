@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict bGPmu4qW4vdVVgWZLMhvammMAofSPkVIU0UdKQCWSV3Gr7cfScoGOe9ghWhof3A
+-- \restrict IrL8JxxbGbq1IiozVfPOGcEFSTxk0jzx3Ui5dsjVULeQfPD6QiI7i2qfuZ0sSHB
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -299,6 +299,27 @@ ac620332-3750-48b5-81c3-170eec903bb9	CREATED	WHATSAPP_GROUP	ffe43800-26b8-477c-9
 4656c60d-07b3-4e80-b6bd-5df751ccc1a5	CREATED	WHATSAPP_GROUP	f3f70309-8dd7-428c-8102-99fea3fe2ac0	Grupo de WhatsApp criado (Ver. Leonel / Velha Guarda)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 18:03:34.162
 0121d578-cfb5-478f-bdfd-babced0a71aa	CREATED	WHATSAPP_GROUP	3d754dad-3dc5-4583-929d-8e58c45daff4	Grupo de WhatsApp criado (Leonel de Esquerda com Somos Todas Professoras)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-12 18:05:59.179
 ba5dbba5-7d4e-4315-ac4e-1b2ea2bae0f0	CREATED	DAILY_REPORT	43fd85c5-fd8f-4bcf-a764-754f3e51bdb2	Relatório criado (Avulso, 2026-08-12)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 19:04:06.526
+509283bd-423e-4a2b-ba28-a2a408091c53	CREATED	DAILY_REPORT	5fa26785-6082-4d1f-8488-e24b071ecf03	Relatório criado (Camelô * Ambulante * Trabalhadores da Orla, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 12:46:13.252
+afa81836-cd07-4ef7-ac90-c4591517b06b	CREATED	DAILY_REPORT	040faf28-9dcf-4078-9514-8fca2d00f234	Relatório criado (Avulso, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 12:52:16.804
+c2b5e272-6cf3-4e9e-be6f-603daa9e3cc7	CREATED	DAILY_REPORT	0e61b497-41df-4e2d-b859-56688d78cc27	Relatório criado (Audiencia Publica - Trabalho Informal, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 12:55:39.852
+34c2a808-7ac3-4c22-90be-16aeb2e153e5	UPDATED	DAILY_REPORT	40a580e2-6439-4319-8254-fe147355c713	Relatório atualizado (Museu do Amanha, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:03:10.815
+38b03c5b-0142-4d8b-83c6-ccb6cdfa2609	CREATED	DAILY_REPORT	a2e84220-3939-42de-89cb-d2a1dd582807	Relatório criado (AMIGOS BBZAO, 2026-08-13)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:06:51.626
+e0ec062e-c0b9-4bf7-8a43-87263b0a69f5	CREATED	DAILY_REPORT	959081fa-218c-479f-9028-e860008b538e	Relatório criado (Bangu, 2026-08-13)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:08:13.07
+5dd732fe-cedc-4aa8-8f0b-4a5b8005595e	CREATED	DAILY_REPORT	1a762ead-d279-4c2d-9289-9fe202b02646	Relatório criado (Banquinha Carioca, 2026-08-12)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:10:03.974
+23088a35-fb0d-4086-9a45-89e79498bcc5	CREATED	DAILY_REPORT	f35f5ebc-b7a4-4e92-855d-fe5e67138252	Relatório criado (Avulso, 2026-08-12)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:00:23.853
+b3fd41e2-b322-4a41-90e0-b89f7fe4e69b	CREATED	DAILY_REPORT	44beccb8-ee91-4c39-89eb-523f8af0c9bb	Relatório criado (Ilha, 2026-08-13)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:09:47.453
+ac0e6cec-a050-43b3-bb82-6fcb368e38f6	UPDATED	DAILY_REPORT	f35f5ebc-b7a4-4e92-855d-fe5e67138252	Relatório atualizado (Avulso, 2026-08-12)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:10:31.385
+77b1f7e5-e995-4c64-84c6-bc4dc7078d08	UPDATED	DAILY_REPORT	44beccb8-ee91-4c39-89eb-523f8af0c9bb	Relatório atualizado (Ilha, 2026-08-12)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:53:34.445
+8e356ed9-fa77-4a14-a5b8-7ec1188dc120	CREATED	DAILY_REPORT	1d85fb81-1dd6-4d31-bc5c-65ab03ecd653	Relatório criado (Censo Botafogo, 2026-08-13)	\N	eaa6d959-a24c-4881-a882-061c4cd19902	2026-08-13 16:56:10.043
+2e780d2f-8ea4-48c8-a986-5906b2d066ca	CREATED	VOLUNTEER_REQUEST	8db3d0e1-8019-4e75-8f21-b98d63185f62	Pedido de trabalho criado (Monica Albuquerque)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-13 17:07:50.837
+2e0ded30-08eb-417c-80bd-e0944e14dc72	CREATED	DAILY_REPORT	aa38da46-6b81-4ccc-a031-867473253af1	Relatório criado (Roda Cultural, 2026-08-13)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 18:26:42.406
+fce0f572-548d-4045-a9b7-7414cf29a08f	CREATED	DAILY_REPORT	d870e937-e6f2-43a0-a5e7-6a5d426b31db	Relatório criado (Panfletagem Carioca e Uruguaiana 2024, 2026-08-13)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 18:28:19.008
+5b040e21-c64e-4c1f-b0be-7c7b4e97635d	CREATED	VOLUNTEER_REQUEST	0281b936-0c46-4b2b-ad60-0b670deaa8d2	Pedido de trabalho criado (Andressa Freitas)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-13 18:50:12.349
+d50c9a9f-5145-4069-8d82-14e373fcc26b	CREATED	DAILY_REPORT	e496267a-8dbd-4d8a-a692-742abc2260be	Relatório criado (Avulso, 2026-08-13)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-13 18:56:56.838
+c4d0a015-c033-4bfe-88db-3c10935c2874	CREATED	DAILY_REPORT	69fba48a-e796-4a01-abe8-c015c281a745	Relatório criado (gari temp, 2026-08-13)	\N	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 19:04:27.486
+e8f53107-758f-4b7a-a8dd-b4e44a7eaa4f	CREATED	DAILY_REPORT	e5b3528a-509a-4ca7-b15f-f93875bc6d07	Relatório criado (Sanga VK, 2026-08-13)	\N	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 19:37:26.304
+48f49a7d-89b5-44e1-a106-559d61fd72f8	UPDATED	DAILY_REPORT	1ff39e9a-a322-498d-a37c-658c55e80ecf	Relatório atualizado (Agenda Sta Rita, 2026-08-08)	\N	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 19:37:55.036
+76cff52a-bf01-4f47-a122-be2a4866d63b	CREATED	DAILY_REPORT	77e55b47-bcec-49be-9a3b-e9beea8f616e	Relatório criado (Agenda Correios, 2026-08-13)	\N	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 20:13:26.623
 \.
 
 
@@ -307,17 +328,20 @@ ba5dbba5-7d4e-4315-ac4e-1b2ea2bae0f0	CREATED	DAILY_REPORT	43fd85c5-fd8f-4bcf-a76
 --
 
 COPY "public"."daily_reports" ("id", "date", "tag", "contacts", "replies", "supporters", "materialRequestsCount", "volunteerRequestsCount", "observations", "userId", "createdAt", "updatedAt") FROM stdin;
-40a580e2-6439-4319-8254-fe147355c713	2026-08-12	Museu do Amanha	5	0	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:46:55.594	2026-08-12 15:46:55.594
 b4616526-9392-4246-af3d-8c1238aaec8c	2026-08-07	Nova Iguaçu	48	16	12	0	0	Convite para reunião de lideranças com Reimont	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-07 20:45:58.035	2026-08-07 20:45:58.035
 43fd85c5-fd8f-4bcf-a764-754f3e51bdb2	2026-08-12	Avulso	31	31	10	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-12 19:04:06.497	2026-08-12 19:04:06.497
 bb8eaf62-2f90-4a14-b813-3c5f57d0088d	2026-08-10	Avulso	8	4	2	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-10 12:11:30.48	2026-08-10 12:21:46.469
+5fa26785-6082-4d1f-8488-e24b071ecf03	2026-08-12	Camelô * Ambulante * Trabalhadores da Orla	9	9	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 12:46:13.21	2026-08-13 12:46:13.21
+040faf28-9dcf-4078-9514-8fca2d00f234	2026-08-12	Avulso	4	4	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 12:52:16.774	2026-08-13 12:52:16.774
+0e61b497-41df-4e2d-b859-56688d78cc27	2026-08-12	Audiencia Publica - Trabalho Informal	1	1	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 12:55:39.833	2026-08-13 12:55:39.833
 054b2ebd-ca8b-4143-bdf3-4fdf9478f6e8	2026-08-10	Camelô * Ambulante * Trabalhadores da Orla	10	3	1	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-10 15:22:04.284	2026-08-10 15:22:04.284
+40a580e2-6439-4319-8254-fe147355c713	2026-08-12	Museu do Amanha	3	3	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:46:55.594	2026-08-13 13:03:10.788
 755a3d25-0fe2-4f47-9701-1dbbfff12730	2026-08-10	Avulso	29	22	5	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-10 16:38:27.93	2026-08-10 16:38:27.93
+a2e84220-3939-42de-89cb-d2a1dd582807	2026-08-13	AMIGOS BBZAO	2	1	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:06:51.607	2026-08-13 13:06:51.607
 6e40606b-ec5a-48c5-8b4a-74d6c9b96a14	2026-08-10	Camelô * Ambulante * Trabalhadores da Orla	147	20	0	0	0	Envio do convite da audiencia publica na camara	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-10 13:16:41.831	2026-08-11 11:34:37.315
 2b8ee76d-eab0-4dea-8795-b91a742ba2c4	2026-08-11	Horto	3	1	1	0	0	Julio Cesar de cesar de nova Iguaçu \nEle tem pessoas que foram dispensadas da concessionária de água  pode ser um apoiado em potencial	17852695-98dd-457e-8459-c409d223d417	2026-08-11 12:59:19.129	2026-08-11 12:59:19.129
 f98c670f-040f-4608-b334-fe26893141b6	2026-08-10	Avulso	5	5	3	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 14:15:03.666	2026-08-11 14:15:03.666
 1e4158ec-8474-4236-b956-10880b4bc680	2026-08-10	Camelô * Ambulante * Trabalhadores da Orla	3	2	2	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 14:15:55.341	2026-08-11 14:16:38.046
-1ff39e9a-a322-498d-a37c-658c55e80ecf	2026-08-08	Agenda Sta Rita	6	6	0	0	0	Contatos feito pelo Qr Code	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-11 17:35:16.883	2026-08-11 17:36:01.341
 d85b926f-0f1d-43ae-808a-3d8b81e6d9e2	2026-08-07	Cavalvanti	30	13	0	0	0	Criação de grupo	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-11 17:47:17.904	2026-08-11 18:18:33.826
 ba9d1e02-a4b3-4311-8fdf-cb80c19a265d	2026-08-11	Avulso	39	39	17	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-11 19:03:39.787	2026-08-11 19:04:58.506
 5b53c710-602b-45e4-a775-adf3676b1d15	2026-08-11	Avulso	2	2	0	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 21:23:03.742	2026-08-11 21:23:03.742
@@ -329,6 +353,18 @@ f68f489a-5767-4454-ab65-7f5ffdf9bcac	2026-08-11	Censo Botafogo	50	15	7	0	0	\N	ea
 dd726fce-8272-45f0-9e04-54941630cfc4	2026-08-11	Praça XV	9	1	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:27:41.948	2026-08-12 13:27:41.948
 5fc0f05f-2da3-4534-a7cd-ea0d5d5f1aa0	2026-08-11	Avulso	7	7	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 13:37:43.526	2026-08-12 13:37:43.526
 afafdb43-49c1-4af1-8723-e12eba816795	2026-08-12	Praça XV	15	5	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-12 15:45:03.853	2026-08-12 15:45:03.853
+959081fa-218c-479f-9028-e860008b538e	2026-08-13	Bangu	1	0	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:08:13.05	2026-08-13 13:08:13.05
+1a762ead-d279-4c2d-9289-9fe202b02646	2026-08-12	Banquinha Carioca	1	1	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 13:10:03.954	2026-08-13 13:10:03.954
+f35f5ebc-b7a4-4e92-855d-fe5e67138252	2026-08-12	Avulso	8	5	0	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:00:23.803	2026-08-13 14:10:31.367
+44beccb8-ee91-4c39-89eb-523f8af0c9bb	2026-08-12	Ilha	16	8	0	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:09:47.422	2026-08-13 14:53:34.413
+1d85fb81-1dd6-4d31-bc5c-65ab03ecd653	2026-08-13	Censo Botafogo	0	0	0	0	0	\N	eaa6d959-a24c-4881-a882-061c4cd19902	2026-08-13 16:56:10.006	2026-08-13 16:56:10.006
+aa38da46-6b81-4ccc-a031-867473253af1	2026-08-13	Roda Cultural	17	3	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 18:26:42.379	2026-08-13 18:26:42.379
+d870e937-e6f2-43a0-a5e7-6a5d426b31db	2026-08-13	Panfletagem Carioca e Uruguaiana 2024	6	2	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-13 18:28:18.993	2026-08-13 18:28:18.993
+e496267a-8dbd-4d8a-a692-742abc2260be	2026-08-13	Avulso	60	60	8	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-13 18:56:56.815	2026-08-13 18:56:56.815
+69fba48a-e796-4a01-abe8-c015c281a745	2026-08-13	gari temp	1	1	0	0	0	agenda morro dos macacos leo fumacinha	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 19:04:27.455	2026-08-13 19:04:27.455
+e5b3528a-509a-4ca7-b15f-f93875bc6d07	2026-08-13	Sanga VK	15	2	2	0	0	Apoiadores dos leonel na Vk. Mas reclamam da ausencia dele la.	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 19:37:26.278	2026-08-13 19:37:26.278
+1ff39e9a-a322-498d-a37c-658c55e80ecf	2026-08-08	Agenda Sta Rita	6	6	6	0	0	Contatos feito pelo Qr Code	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-11 17:35:16.883	2026-08-13 19:37:55.015
+77e55b47-bcec-49be-9a3b-e9beea8f616e	2026-08-13	Agenda Correios	1	1	1	0	0	notificar quando tiver reunião	51186511-dd29-4c57-9e06-dd2ee8cb6c2f	2026-08-13 20:13:26.584	2026-08-13 20:13:26.584
 \.
 
 
@@ -379,6 +415,8 @@ d57943e4-90fc-4d96-9832-2f4bcb9b1445	Juliana	21965697174	-	Centro	RJ	{"Fim de se
 aed88397-2879-41f5-9e5f-200f25e25d1f	Vitória Giovana	21986291289	-	Centro	RJ	{"Fim de semana"}	{Outro}	\N	PENDING_CONTACT	Indicação da tia (Rosenilda Amaral) para trabalhar na campanha	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-10 12:08:26.23	2026-08-10 12:08:26.23
 af1b9f36-d49a-468b-8bdb-cf2ce010b362	Carlos Augusto	21985978816	Pedregulho	São Cristóvão	Rio	{Manhã,Tarde,Noite,"Fim de semana"}	{"Campanha de rua"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-10 13:46:49.752	2026-08-10 13:46:49.752
 56649afd-340c-4d62-a0eb-bffe4828cb61	Deuza Alves Ferraz	21960213306	Bangu	Bangu	Rio de Janeiro	{Manhã}	{"Campanha de rua"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-11 13:32:03.119	2026-08-11 13:32:03.119
+8db3d0e1-8019-4e75-8f21-b98d63185f62	Monica Albuquerque	21995329098	Botafogo	Botafogo	Rio	{Manhã}	{"Campanha de rua"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-13 17:07:50.801	2026-08-13 17:07:50.801
+0281b936-0c46-4b2b-ad60-0b670deaa8d2	Andressa Freitas	5521981988609	Vista Alegre	Vista Alegre	Rio	{Manhã}	{"Campanha de rua"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-13 18:50:12.317	2026-08-13 18:50:12.317
 \.
 
 
@@ -471,6 +509,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict bGPmu4qW4vdVVgWZLMhvammMAofSPkVIU0UdKQCWSV3Gr7cfScoGOe9ghWhof3A
+-- \unrestrict IrL8JxxbGbq1IiozVfPOGcEFSTxk0jzx3Ui5dsjVULeQfPD6QiI7i2qfuZ0sSHB
 
 RESET ALL;
