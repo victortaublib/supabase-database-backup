@@ -145,7 +145,8 @@ CREATE TABLE IF NOT EXISTS "public"."daily_reports" (
     "observations" "text",
     "userId" "uuid" NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "phone" "text" NOT NULL
 );
 
 
@@ -338,11 +339,15 @@ CREATE INDEX "daily_reports_date_idx" ON "public"."daily_reports" USING "btree" 
 
 
 
+CREATE INDEX "daily_reports_phone_idx" ON "public"."daily_reports" USING "btree" ("phone");
+
+
+
 CREATE INDEX "daily_reports_tag_idx" ON "public"."daily_reports" USING "btree" ("tag");
 
 
 
-CREATE UNIQUE INDEX "daily_reports_userId_date_tag_key" ON "public"."daily_reports" USING "btree" ("userId", "date", "tag");
+CREATE UNIQUE INDEX "daily_reports_userId_date_tag_phone_key" ON "public"."daily_reports" USING "btree" ("userId", "date", "tag", "phone");
 
 
 
