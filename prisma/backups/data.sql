@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict XCAsbRSUXDyZ2p1gm4eVOU12Fsud3KU9AjpgOLe2PeKDIUOfxSSrrc3hxcruPB9
+-- \restrict iPld9l3KcWpyvXlJdgbaPdd1f48QQspqsvJHAyq2nov9GESFamxwplk7mtEGbZu
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -352,6 +352,30 @@ efa69bb0-01ba-4498-9f05-38e76630dc31	UPDATED	MATERIAL_REQUEST	50726352-7c6b-405e
 b372cf50-0d8e-4940-96d8-5906414b8bf0	DELETED	MATERIAL_REQUEST	112efa8c-5f24-4b70-ab89-60c39a7bb9d7	Pedido de material excluído (Araujo Joao Costa)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-17 16:16:20.323
 2f3dac2c-cffa-4c5f-9cbd-4d7583456239	CREATED	MATERIAL_REQUEST	cc00cc33-f1e8-4d55-941a-db354ba71b6b	Pedido de material criado (Carlos Rocha)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-17 18:28:33.776
 4e3acf2f-2bf0-42cf-a5be-d2a7aa12b636	CREATED	DAILY_REPORT	458d5b6e-1a43-4248-92e3-ad6568c3390b	Relatório criado (Avulsos, 2026-08-17)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-17 19:02:31.142
+b59e180b-b414-4a15-b380-d4ebd3de4e6c	CREATED	MATERIAL_REQUEST	d5f5dd36-61b7-4a5c-b22e-c9a6afbcf42e	Pedido de material criado (Ricardo)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 12:17:03.461
+f12629da-36fa-4f7b-ab9b-b5063cd478be	CREATED	MATERIAL_REQUEST	1077f799-3718-44d9-a5d2-63de14a17496	Pedido de material criado (Janio Santos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 12:53:41.28
+3bda9c46-5f3c-4b83-84a0-46a85e716bb2	CREATED	MATERIAL_REQUEST	6c679ce5-dad0-4009-831d-ae5eff049142	Pedido de material criado (Simões do Nascimento)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 13:11:54.213
+dda69637-5505-484b-86c0-221faa4f4d69	CREATED	MATERIAL_REQUEST	fad6b81c-bd9b-4054-9c71-44fd1ec5cf5a	Pedido de material criado (Diego)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 13:13:04.356
+e3b78a33-e06c-4fc8-9b56-0cbb8cf69078	CREATED	VOLUNTEER_REQUEST	29465473-11d6-4f0f-a4f2-18f33897b62b	Pedido de trabalho criado (Diego)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 13:36:07.88
+4c2ecbbe-8522-42ce-8e5a-924af010ba30	CREATED	VOLUNTEER_REQUEST	c644e06d-946a-4f54-8532-8dce516492ec	Pedido de trabalho criado (Simões do Nascimento)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 13:40:20.094
+97f96075-c3ed-4c15-9b56-88265044ae40	CREATED	MATERIAL_REQUEST	a08d9bf1-1564-4da3-8b3b-1ef5e7f0fb5a	Pedido de material criado (Beth Alves)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 13:46:57.642
+4c807901-ea5c-4c46-9dd8-202dd9b0110a	CREATED	VOLUNTEER_REQUEST	56747ec1-5437-4465-80fc-9f6bc2804a96	Pedido de trabalho criado (Beth Alves)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 13:50:22.032
+bfe7f542-f830-4e17-ae00-bd511c7e5609	CREATED	VOLUNTEER_REQUEST	803a6e18-2274-4f92-a37e-9c63ac57dfa7	Pedido de trabalho criado (Alessandra Figueira)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 14:53:56.493
+4640cd26-6954-4c86-8272-80ea64a10201	CREATED	MATERIAL_REQUEST	249a3bba-12e4-42f8-98b5-08ce608554a9	Pedido de material criado (Alessandra Figueira)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 14:57:37.881
+e6e174b1-208a-4083-9838-25fb9e0d0806	CREATED	VOLUNTEER_REQUEST	17c5bad4-92d8-4cdb-9a43-ff2881f6ea56	Pedido de trabalho criado (Janio Santos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 17:50:11.02
+d2e6dcc6-3bd4-4239-bdb9-d52d47c96f8d	CREATED	VOLUNTEER_REQUEST	2cd50bc6-ff6f-43a7-a357-40c665d88928	Pedido de trabalho criado (Luiz Fernando)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 17:56:07.866
+8f7f9b64-28cc-4d7a-8ebd-5ec97d575243	CREATED	MATERIAL_REQUEST	975c7681-e348-4e9d-928c-636539179703	Pedido de material criado (Luiz Fernando)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 18:05:22.916
+0528c1aa-117a-494a-a11d-54614ca43a1a	CREATED	MATERIAL_REQUEST	1d37ff53-68fe-4a36-8e0d-f1a20381bf81	Pedido de material criado (Martha Santos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 18:07:56.457
+be313816-a81e-426b-8c79-2be8a4af5454	CREATED	MATERIAL_REQUEST	1bf6053d-2d34-4448-a180-8a1371d431c4	Pedido de material criado (Scooby/Felipe)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 18:09:17.37
+63bfa3b8-71f8-4168-91b2-a05b54a06a8c	UPDATED	MATERIAL_REQUEST	1d37ff53-68fe-4a36-8e0d-f1a20381bf81	Pedido de material atualizado (Martha Santos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 18:09:26.427
+956c42b2-5fdf-444a-83b8-df13ea941490	CREATED	MATERIAL_REQUEST	103aefb0-9246-41b6-bf0a-f47fed4ec6c8	Pedido de material criado (Anderson Souza)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 18:33:09.396
+62f63865-f184-4899-9de8-98908f91e5de	CREATED	MATERIAL_REQUEST	7167a15a-3460-4242-b24f-46fc45cedd6e	Pedido de material criado (Kissila Escalzo)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 18:43:50.362
+2f2830ac-9491-47c3-b649-6ad06b4ae5f1	CREATED	DAILY_REPORT	a1e92db8-8c65-4789-9e7f-267dbbe10c51	Relatório criado (Avulsos, 2026-08-18)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 19:05:01.011
+c679407a-fe01-4dd8-942d-e7bb74c4e1ce	CREATED	MATERIAL_REQUEST	89fae1f2-b193-4195-9f42-a181763bc375	Pedido de material criado (Monica)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 19:32:33.212
+7029c871-de07-4ae1-a4b9-3a9bdc67f561	CREATED	MATERIAL_REQUEST	2316115c-6fc2-40b7-b98c-3e29b1401113	Pedido de material criado (Carlos Elias)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 19:53:09.674
+4235eb7b-4044-4b11-9a4f-720b86107298	CREATED	MATERIAL_REQUEST	d556fd15-bf68-40ae-93e2-61b3cb3bfec8	Pedido de material criado (Catia dos Reis)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 19:55:55.254
+7df9613e-cce7-4cbd-8823-0727ac486f6f	CREATED	MATERIAL_REQUEST	a7f22999-8742-4062-a1b0-717e5d785417	Pedido de material criado (Marcelo Fernandes)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 20:13:19.348
+00835e62-6d07-45f2-a405-d5517cec4992	CREATED	MATERIAL_REQUEST	24b8a1e1-6e52-4925-a5d5-63e390747252	Pedido de material criado (Tadeu)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-18 20:35:09.984
 \.
 
 
@@ -398,6 +422,7 @@ f68f489a-5767-4454-ab65-7f5ffdf9bcac	2026-08-11	Censo Botafogo	50	15	7	0	0	\N	ea
 f35f5ebc-b7a4-4e92-855d-fe5e67138252	2026-08-12	Avulso	8	5	0	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-13 14:00:23.803	2026-08-13 14:10:31.367	Telefone 5
 f98c670f-040f-4608-b334-fe26893141b6	2026-08-10	Avulso	5	5	3	0	0	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-11 14:15:03.666	2026-08-11 14:15:03.666	Telefone 5
 458d5b6e-1a43-4248-92e3-ad6568c3390b	2026-08-17	Avulsos	31	31	16	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-17 19:02:31.103	2026-08-17 19:02:31.103	Telefone 4
+a1e92db8-8c65-4789-9e7f-267dbbe10c51	2026-08-18	Avulsos	26	26	20	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-18 19:05:00.976	2026-08-18 19:05:00.976	Telefone 4
 \.
 
 
@@ -426,6 +451,7 @@ COPY "public"."demand_timeline_events" ("id", "demandId", "eventType", "fromStat
 
 COPY "public"."material_requests" ("id", "fullName", "phone", "tag", "neighborhood", "city", "fullAddress", "referencePoint", "materials", "materialOther", "quantity", "preferredDate", "preferredTime", "status", "notes", "userId", "assignedToId", "createdAt", "updatedAt") FROM stdin;
 51793f21-a52d-4613-9650-8018141a8a37	Marcos	5521979574286	Oswaldo Cruz	Oswaldo Cruz	Oswaldo Cruz	Rua Alberto de Carvalho	\N	{Adesivo,Panfleto,Bandeira}	\N	1	\N	Manhã	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-14 13:31:40.889	2026-08-14 13:31:40.889
+1077f799-3718-44d9-a5d2-63de14a17496	Janio Santos	5521986350829	Guaratiba	Guaratiba	Rio de Janeiro	Rua vila Gloria, S/N, LOTE- 11, QD-97, Jardim Maravilha	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	CEP.:23031-192	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 12:53:41.249	2026-08-18 12:53:41.249
 24757c49-49e8-4dbb-9357-f6d1dfcede01	Cybelle Ribeiro (Vozinha)	5521996128623	São Salvador	Laranjeiras	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-14 18:43:40.015	2026-08-14 18:44:11.703
 e279f1a6-fb19-4656-9840-3644640896fd	Jehro Gueiros	5521999005887	Freguesia JPA	Freguesia JPA	Rio de Janeiro	Rua Ana Cristina Cesar,155, bloco 02, AP. 409	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	CEP: 22763-145	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 12:22:31.717	2026-08-17 12:22:31.717
 8e88b89f-9520-4e64-aaf6-816cac24578a	Robson Miotti	5521996406007	Caxias	Caxias	Caxias	---	\N	{Adesivo}	\N	1	\N	Manhã	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-12 12:53:38.22	2026-08-17 12:26:18.288
@@ -433,12 +459,27 @@ b566d48d-f299-48fb-8504-8bacc77c9f6a	João Oliveira	5521981957647	Irajá	Colégi
 15c49346-3015-4190-af55-7bcdc095d897	Márcio Domingos - Ilha	21976393358	Ilha	Ilha do Governador	R	Estrada do Galeão - 92	\N	{Adesivo,Panfleto,Banner}	\N	1	\N	\N	PENDING	Em casa depois de 17:30	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-17 13:55:17.082	2026-08-17 13:55:17.082
 7af536d6-0782-4e05-8ac1-e809f08e5917	José Nascimento	21964349405	Ilha do Governador	Ilha do Governador	Rio de Janeiro	Estrada Maracajá 494 - Galeão	\N	{Adesivo,Panfleto,Banner}	\N	1	\N	Tarde	PENDING	Entregar para a irmã Terezinha.	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-17 14:45:56.94	2026-08-17 14:45:56.94
 52a9bd62-ad90-4812-a926-2d16d2942eb1	Ricardo	5521995875475	Nova Iguaçu	Copacabana	Rio de Janeiro	Rua Siqueira Campos, 43 - 829	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 15:06:04.68	2026-08-17 15:06:04.68
+6c679ce5-dad0-4009-831d-ae5eff049142	Simões do Nascimento	5521976087398	São Cristóvão	São Cristóvão	Rio de Janeiro	Rua Major Fonseca 22 casa 2	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 13:11:54.183	2026-08-18 13:11:54.183
 50726352-7c6b-405e-9ea0-389701a0dc03	Araujo Joao Costa	5521990058133	Paciência	Paciência	Rio de Janeiro	Rua Paulinho da Ilha, 61	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Em frente a igreja missionária da paz Comunidade da nova Jersey	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 15:09:01.779	2026-08-17 15:10:25.469
 72594066-2e05-48a0-a30e-af650b0b05da	Marcelo	5521975956292	São João de Meriti	Éden	São João de Meriti	Rua Francisco Guimarães Neves, 299	Em frente a oficina do Alexandre, Portão de alumínio, Muro verde.	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 15:20:47.459	2026-08-17 15:20:47.459
 d4276ee6-fe68-4922-b14f-fd3a6454f80e	Abisai Leite	21964413550	Campo Grande	Campo Grande	Rio de Janeiro	Estrada do Tingui 740, Fundos - Casa B	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-17 15:26:26.366	2026-08-17 15:26:26.366
 aa697339-c791-4d7b-8c13-afaaf16d18d2	Rosimary Tostes	5521981394416	Inhaúma	Inhaúma	Rio de Janeiro	Rua Aitinga 75, 101	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 15:29:08.477	2026-08-17 15:29:08.477
 1439951e-fa48-44e2-b3d1-e53d5ced16e4	Diniz da Silva	5521998364043	Ramos	Ramos	Rio de Janeiro	Rua Emílio Zaloar 67, AP 101 - Frente	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 15:36:44.222	2026-08-17 15:36:44.222
 cc00cc33-f1e8-4d55-941a-db354ba71b6b	Carlos Rocha	5521995708155	Méier	Méier	Rio de Janeiro	Rua Pedro de Carvalho, 410 Casa 3 AP 202	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 18:28:33.73	2026-08-17 18:28:33.73
+d5f5dd36-61b7-4a5c-b22e-c9a6afbcf42e	Ricardo	5521989351592	Freguesia JPA	Freguesia JPA	Rio de Janeiro	Rua Edgard Werneck 588 Casa 26	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 12:17:03.408	2026-08-18 12:17:03.408
+fad6b81c-bd9b-4054-9c71-44fd1ec5cf5a	Diego	5521982671982	Bangu	Bangu	Rio de Janeiro	Rua topázio 81 fundos	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 13:13:04.339	2026-08-18 13:13:04.339
+a08d9bf1-1564-4da3-8b3b-1ef5e7f0fb5a	Beth Alves	5521974693437	Duque De Caxias	Nossa Senhora do Carmo	Duque de Caxias	Estrada do Calundu, 1000 - Residencial Pádua Bloco 1 AP 201	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 13:46:57.609	2026-08-18 13:46:57.609
+249a3bba-12e4-42f8-98b5-08ce608554a9	Alessandra Figueira	21994545922	Radialista	Copacabana	Rio de Janeiro	Rua Pomoeu Loureiro - 64 casa 8	\N	{Adesivo,Panfleto}	\N	1	\N	Tarde	PENDING	Preferencialmente entre 15h e 18h durante a semana.	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 14:57:37.864	2026-08-18 14:57:37.864
+975c7681-e348-4e9d-928c-636539179703	Luiz Fernando	21984333112	Centro	Centro	Rio de Janeiro	xxx	\N	{Panfleto,Adesivo}	\N	1	2026-08-19	Manhã	PENDING	Vem retirar	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 18:05:22.864	2026-08-18 18:05:22.864
+1bf6053d-2d34-4448-a180-8a1371d431c4	Scooby/Felipe	5521992211487	Acari	Acari	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Retirada	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 18:09:17.354	2026-08-18 18:09:17.354
+1d37ff53-68fe-4a36-8e0d-f1a20381bf81	Martha Santos	5521994449654	Copacabana	Copacabana	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	2026-08-24	\N	PENDING	Retirada	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 18:07:56.437	2026-08-18 18:09:26.408
+103aefb0-9246-41b6-bf0a-f47fed4ec6c8	Anderson Souza	5521966299856	Realengo	Realengo	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Retirada	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 18:33:09.368	2026-08-18 18:33:09.368
+7167a15a-3460-4242-b24f-46fc45cedd6e	Kissila Escalzo	5521982124968	Gávea	Gávea	Rio de Janeiro	Rua Ibrahim Sued 5	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	o prédio é Minhocao. 261\npode deixar com o porteiro no nome da Kissila 413	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 18:43:50.333	2026-08-18 18:43:50.333
+89fae1f2-b193-4195-9f42-a181763bc375	Monica	21967777646	Ilha do Governador	Ilha do Governador	Rio	xxx	xxx	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vai retirar com a liderança	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 19:32:33.177	2026-08-18 19:32:33.177
+2316115c-6fc2-40b7-b98c-3e29b1401113	Carlos Elias	21965502896	Ilha do Governador	Ilha do Governador	Rio de Janeiro	xxx	xxx	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 19:53:09.634	2026-08-18 19:53:09.634
+d556fd15-bf68-40ae-93e2-61b3cb3bfec8	Catia dos Reis	21998898609	Ilha do Governador	Ilha do Governador	Rio de Janeiro	xxx	xxx	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vai retirar com a liderança	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 19:55:55.235	2026-08-18 19:55:55.235
+a7f22999-8742-4062-a1b0-717e5d785417	Marcelo Fernandes	21987178676	Guadalupe	Guadalupe	Rio de Janeiro	Rua Nova Trento 305/101	\N	{Adesivo,Panfleto,Banner,Bandeira}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 20:13:19.321	2026-08-18 20:13:19.321
+24b8a1e1-6e52-4925-a5d5-63e390747252	Tadeu	21994246624	Lapa	Lapa	Rio de Janeiro	xxx	xxx	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 20:35:09.886	2026-08-18 20:35:09.886
 \.
 
 
@@ -468,10 +509,16 @@ af1b9f36-d49a-468b-8bdb-cf2ce010b362	Carlos Augusto	21985978816	Pedregulho	São 
 0281b936-0c46-4b2b-ad60-0b670deaa8d2	Andressa Freitas	5521981988609	Vista Alegre	Vista Alegre	Rio	{Manhã}	{"Campanha de rua"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-13 18:50:12.317	2026-08-13 18:50:12.317
 766436b5-3e70-4b9f-b9a6-3e987cfb76a0	Arlei Coelho	5521997873871	Campo Grande	Cam	Rio de Janeiro	{Manhã,Tarde,Noite,"Fim de semana"}	{"Campanha de rua",Eventos}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-14 13:01:44.951	2026-08-14 13:01:44.951
 219d5793-b693-4da4-99ab-c602772e2644	Lucas Mugon	5521969630991	Belford Roxo	Belford Roxo	Belford Roxo	{Manhã}	{"Redes sociais"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-14 17:58:44.928	2026-08-14 17:58:44.928
+2cd50bc6-ff6f-43a7-a357-40c665d88928	Luiz Fernando	21984333112	Centro	Centro	Rio de Janeiro	{Manhã}	{Material}	\N	PENDING_CONTACT	Vem retirar	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 17:56:07.841	2026-08-18 17:56:07.841
 67ef3c94-e279-463f-a212-dd0b1ff24c0b	José Nascimento	21964349405	Ilha	Ilha do Governador	Rio de Janeiro	{"Fim de semana"}	{"Redes sociais",Material}	\N	PENDING_CONTACT	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-17 14:43:10.505	2026-08-17 14:43:10.505
 2c898224-85c0-4b86-a06e-bd07da2f9326	Márcio Domingos - Ilha	21976393358	Ilha	Ilha do Governador	Rio de Janeiro	{"Fim de semana",Tarde}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	Em casa depois de 17:30	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-17 13:47:36.625	2026-08-17 14:43:24.56
 1b25f9a1-77db-45b6-bf4f-59a787ef1103	Jehro Gueiros	21999005887	Freguesia JPA	Freguesia JPA	Rio de Janeiro	{Manhã}	{Panfletagem,"Agenda de rua",Material,"Redes sociais"}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-17 14:43:59.708	2026-08-17 14:43:59.708
 9f23b54f-f383-4aa7-ae1c-6c6d3984ba1f	Abisai Leite	21964413550	Campo Grande	Campo Grande	Rio de Janeiro	{"Fim de semana"}	{"Redes sociais",Material}	\N	PENDING_CONTACT	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-17 15:27:29.739	2026-08-17 15:27:29.739
+29465473-11d6-4f0f-a4f2-18f33897b62b	Diego	5521982671982	Bangu	Bangu	Rio de Janeiro	{Manhã}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 13:36:07.846	2026-08-18 13:36:07.846
+c644e06d-946a-4f54-8532-8dce516492ec	Simões do Nascimento	5521976087398	São Cristóvão	São Cristóvão	Rio de Janeiro	{Manhã}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 13:40:20.071	2026-08-18 13:40:20.071
+56747ec1-5437-4465-80fc-9f6bc2804a96	Beth Alves	5521974693437	Duque De Caxias	Nossa Senhora do Carmo	Duque de Caxias	{Manhã}	{"Agenda de rua","Redes sociais",Panfletagem,Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 13:50:22.013	2026-08-18 13:50:22.013
+803a6e18-2274-4f92-a37e-9c63ac57dfa7	Alessandra Figueira	21994545922	Radialista	Copacabana	Rio de Janeiro	{Tarde}	{"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-18 14:53:56.465	2026-08-18 14:53:56.465
+17c5bad4-92d8-4cdb-9a43-ff2881f6ea56	Janio Santos	5521986350829	Guaratiba	Guaratiba	Rio de Janeiro	{Manhã}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-18 17:50:10.981	2026-08-18 17:50:10.981
 \.
 
 
@@ -564,6 +611,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict XCAsbRSUXDyZ2p1gm4eVOU12Fsud3KU9AjpgOLe2PeKDIUOfxSSrrc3hxcruPB9
+-- \unrestrict iPld9l3KcWpyvXlJdgbaPdd1f48QQspqsvJHAyq2nov9GESFamxwplk7mtEGbZu
 
 RESET ALL;
