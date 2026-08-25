@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict fhDOu9nB6IfNx0zoRVjy90bTimekPNNoTdiiPJd153IhZObSiMCSSbBvcaWLUIh
+-- \restrict 1xiKxiP2wVfbtMW8HhWEWfgCG8qN7dyUV5ilNDJa3nuOlvhtsSeahmmxbKK8FOm
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -210,6 +210,7 @@ ef88882c-b914-42e4-9da1-29ba33bdafa4	Ingrid - Telefone 5	ingridntelles@hotmail.c
 eaa6d959-a24c-4881-a882-061c4cd19902	Julio - Telefone 7	juliolemosalencar@gmail.com	$2b$12$oztHSOBoBm8IWDX8b0AMdOf8lNZiClChI6iZDwrm9y3UNEsMxDeXC	OPERATOR	\N	t	2026-08-10 16:44:13.957	2026-08-10 16:44:13.957
 478b69cf-d291-45df-b3a9-439f6d3478cb	Igor	igorsmgoulart@gmail.com	$2b$12$0umpbFu0/rSrFBuz9d89kOioJfHOx3BAFaHHbbmBgM223YSzQOhm6	ADMIN	\N	t	2026-08-10 17:32:58.877	2026-08-10 17:32:58.877
 17852695-98dd-457e-8459-c409d223d417	Vinicius - Telefone 3	vinicius.barpen@gmail.com	$2b$12$hqYUw4Z1Q/2Psuwmxfvy3uADJ3DfZfvw/sBEgCgTi56A2/A7B/aDS	OPERATOR	\N	t	2026-08-10 12:42:50.476	2026-08-11 14:12:34.048
+1814cb3a-5e52-4a39-bbb9-3c781f075d4f	Gabriel - Telefone 1	gabkimmemgs@gmail.com	$2b$12$aQkFo9JAHMZTNkyf/EKhLOsge6TaGzQNprRQLzvjmHFmcte.T7ccm	OPERATOR	\N	t	2026-08-24 19:25:31.158	2026-08-24 19:25:31.158
 \.
 
 
@@ -493,6 +494,40 @@ ffbc8194-8291-4748-b62a-4cc044682290	UPDATED	MATERIAL_REQUEST	e19e1e10-1dfb-4844
 9f62273d-6def-4f78-9494-3584ca74e5c4	CREATED	MATERIAL_REQUEST	2d9090ad-573a-4ae4-a72f-74114f26a6bd	Pedido de material criado (Maria de Fatima)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-21 19:51:39.722
 dc2b5f48-ea53-4da6-a380-621f32145f17	CREATED	MATERIAL_REQUEST	3550fccc-4b98-49c9-844d-e1e1c25260f2	Pedido de material criado (Genesio BASSON)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-21 19:58:19.204
 b5115989-3028-4885-9053-b2956acd5b9a	CREATED	DAILY_REPORT	16a13a66-03b1-43f7-911f-5b4f95e22d63	Relatório criado (Avulsos, 2026-08-21)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-21 19:59:27.823
+a9e274b2-dd11-4545-90d1-9557d8bcf100	UPDATED	MATERIAL_REQUEST	b22b5b2f-6869-40d8-813b-c3a744d11bed	Pedido de material atualizado (CLAUDIA RODRIGUES)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-24 15:43:14.807
+919b84b4-874e-45f4-aaf1-e4c01d68fc44	UPDATED	MATERIAL_REQUEST	88d482de-30b6-4eb3-a8c5-7b6b4ac011d1	Pedido de material atualizado (DANIELE CARDOSO)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-24 15:43:36.939
+587f64b6-4673-4a0d-9e49-4e9e4e22743c	CREATED	MATERIAL_REQUEST	10b3bb68-b0a4-4139-b439-29a9e0962d5d	Pedido de material criado (Pablo Henrique)	\N	17852695-98dd-457e-8459-c409d223d417	2026-08-24 15:53:08.613
+43d1000c-b2d1-4940-b2c4-ec6fcc7462ab	CREATED	MATERIAL_REQUEST	2ef0c818-675d-4a1d-83a5-b08ad31dce41	Pedido de material criado (Luiz Antonio)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-24 16:21:06.506
+51517348-82ef-4415-8167-14ce63118979	CREATED	MATERIAL_REQUEST	5f5890ab-6db2-47bc-ad7c-2a50062f5147	Pedido de material criado (Luiz Gonzaga - Guadalupe)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 16:44:31.792
+e281dfc8-ff7a-4597-a376-cef4a8aedbef	CREATED	MATERIAL_REQUEST	7a145f91-1bb1-4660-84bd-1dbd5ef13a36	Pedido de material criado (Rodrigo Nascimento de Carvalho)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 16:49:20.815
+4c7fef42-a7ab-4f93-a23d-38779b01cd59	CREATED	VOLUNTEER_REQUEST	2ca78adb-f1c4-41c8-ba55-7713665ee428	Pedido de trabalho criado (Marcos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 17:02:59.778
+cf2f87e1-c3d3-4efa-a946-529fe151b6ef	CREATED	MATERIAL_REQUEST	c6db4c9e-4404-402b-80e1-6c1dff080a2a	Pedido de material criado (Rocha)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 17:11:25.542
+b3e9276b-9a94-4092-bf72-ff0fab07bc32	CREATED	MATERIAL_REQUEST	4abf08cd-7894-4e18-886b-342abc24ae4d	Pedido de material criado (Tony)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 17:57:45.397
+adff5a8c-001e-4321-ace0-35b597d75cfc	CREATED	MATERIAL_REQUEST	f9ce73ba-926a-45e4-b3e1-9c76b38dcf3c	Pedido de material criado (Maria)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 18:02:50.119
+db55fd21-f92a-4f47-b313-49f91f3dc860	CREATED	MATERIAL_REQUEST	5bfbe47e-504e-4404-8488-6099b1568e9c	Pedido de material criado (Arlei Coelho)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 18:09:24.333
+a845543a-6178-43f6-a791-09263ac924d9	UPDATED	MATERIAL_REQUEST	5bfbe47e-504e-4404-8488-6099b1568e9c	Pedido de material atualizado (Arlei Coelho)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 18:15:51.336
+4cb86143-5eca-4da1-8d6a-9823cdd513c6	CREATED	MATERIAL_REQUEST	4ae0d23a-91d3-4d16-a18b-fa897a8a4683	Pedido de material criado (Hugo Henrique)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 18:31:10.214
+f3c8cc71-d97e-49d6-b859-261aa21a9e11	CREATED	MATERIAL_REQUEST	1c02d8c8-171e-40eb-927e-7a52eeffeed9	Pedido de material criado (Eduardo Matos)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 18:38:50.292
+95a3f0cd-dfc8-4499-a60c-e257840b56e2	UPDATED	MATERIAL_REQUEST	1c02d8c8-171e-40eb-927e-7a52eeffeed9	Pedido de material atualizado (Eduardo Matos)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:10:47.846
+95d81654-80e2-4075-8b79-08f0298bda78	CREATED	MATERIAL_REQUEST	648a338f-d681-454a-880e-496d275f60aa	Pedido de material criado (Maria Rosa)	\N	17852695-98dd-457e-8459-c409d223d417	2026-08-24 19:13:32.009
+fe8ea794-0756-47dd-bbcc-679b71d1ad88	CREATED	DAILY_REPORT	2bed63e5-b7b6-46b8-a666-3d92acc414b9	Relatório criado (Avulso, 2026-08-24)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:16:39.823
+5d842591-1635-40c1-9f31-6fc3417f4d1d	CREATED	DAILY_REPORT	3da93225-1aab-4e34-807c-e9fe71ef8c23	Relatório criado (Avulso, 2026-08-21)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:19:05.551
+2f34c778-1f6b-4e97-b22f-462b021e5985	UPDATED	DAILY_REPORT	3da93225-1aab-4e34-807c-e9fe71ef8c23	Relatório atualizado (Avulso, 2026-08-21)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:19:45.814
+da9872bf-2416-41dc-8a54-b0b3ebb9be43	UPDATED	DAILY_REPORT	3da93225-1aab-4e34-807c-e9fe71ef8c23	Relatório atualizado (Avulso, 2026-08-21)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:19:49.991
+25d9e9cd-b88f-41b7-ae7f-6993b9245f87	DELETED	MATERIAL_REQUEST	5bfbe47e-504e-4404-8488-6099b1568e9c	Pedido de material excluído (Arlei Coelho)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:22:13.061
+f6c75c6f-9afd-4517-89f7-9c39c0fd48ad	CREATED	MATERIAL_REQUEST	2ae9cc75-0997-4315-8450-3e75be6c37aa	Pedido de material criado (Rafael Ferreira)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 19:22:15.008
+086562aa-9988-4223-bff7-92c7406c7d59	DELETED	MATERIAL_REQUEST	4ae0d23a-91d3-4d16-a18b-fa897a8a4683	Pedido de material excluído (Hugo Henrique)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:22:35.848
+649b8dda-4f0e-4a11-a2c0-0f2bcc604795	CREATED	MATERIAL_REQUEST	1d6abd96-5348-43d5-a70e-6faea19b23e5	Pedido de material criado (Gonçalo Nunes)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 19:53:38.69
+e986c302-2a45-4cb6-b85e-9269f7cbf2d1	CREATED	MATERIAL_REQUEST	0c3fa967-f330-4cef-9d0a-a2bfaaad0ec6	Pedido de material criado (Eduardo Carpenter)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 20:54:18.81
+1a8c77bb-7f46-41e5-99b9-60ec0b29992c	CREATED	MATERIAL_REQUEST	34f726a9-84b4-4a1a-82f2-d82ffad1aca4	Pedido de material criado (Walter Francisco)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 21:13:22.284
+516c4ac2-208c-4af1-85f8-72e7c11fe2da	UPDATED	MATERIAL_REQUEST	34f726a9-84b4-4a1a-82f2-d82ffad1aca4	Pedido de material atualizado (Walter Francisco)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 21:13:40.819
+436cf7e2-366f-4017-a409-9b43aa553d39	CREATED	DAILY_REPORT	76318e18-e3fe-4ee6-934f-619d9de69d1f	Relatório criado (Avulsos, 2026-08-24)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 21:41:13.906
+343bf0e3-2a01-4b85-ae09-b4ae1a0bea60	CREATED	DAILY_REPORT	a8308c8a-9c6a-42b0-859f-3c2bad542a5d	Relatório criado (Anúncio, 2026-08-24)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 21:41:37.163
+bb746065-a2bd-40c9-9dbc-9afe2a3ba3ac	CREATED	MATERIAL_REQUEST	4a7717cd-1d1c-4138-85e4-3fdd548dea15	Pedido de material criado (Jederson Luiz Batista)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:16:53.996
+38e655cd-dd90-486e-b9d6-12d37e3f434f	UPDATED	MATERIAL_REQUEST	4a7717cd-1d1c-4138-85e4-3fdd548dea15	Pedido de material atualizado (Jederson Luiz Batista)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:17:05.646
+3a80e56f-9777-479a-a32a-32b2e6f1998d	UPDATED	MATERIAL_REQUEST	4a7717cd-1d1c-4138-85e4-3fdd548dea15	Pedido de material atualizado (Jederson Luiz Batista)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:17:20.533
+1aefadf4-354a-4611-b5e8-ee5e126ac647	CREATED	MATERIAL_REQUEST	a7d08726-24e6-42df-ba06-223fb6782d3e	Pedido de material criado (Rosemary)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:18:40.602
+8a3390d8-a8da-405b-93a3-989e62fa8706	CREATED	MATERIAL_REQUEST	bec69cb4-dac0-43b6-8db1-1005c08dbcbb	Pedido de material criado (Catarina Rocha)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:30:05.771
 \.
 
 
@@ -543,6 +578,10 @@ a1e92db8-8c65-4789-9e7f-267dbbe10c51	2026-08-18	Avulsos	26	26	20	0	0	\N	3cb18ea4
 ed0f3978-3e50-41ab-a42b-3840c19d8a71	2026-08-19	Avulsos	34	34	12	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-19 19:03:11.86	2026-08-19 19:03:11.86	Telefone 4
 b47d4f00-68bd-467a-81c0-09957c026108	2026-08-20	Avulso	39	25	25	0	0	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-20 21:17:42.353	2026-08-20 21:17:42.353	Telefone 4
 16a13a66-03b1-43f7-911f-5b4f95e22d63	2026-08-21	Avulsos	31	31	12	0	0	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-21 19:59:27.801	2026-08-21 19:59:27.801	Telefone 4
+2bed63e5-b7b6-46b8-a666-3d92acc414b9	2026-08-24	Avulso	42	30	0	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:16:39.795	2026-08-24 19:16:39.795	Telefone 4
+3da93225-1aab-4e34-807c-e9fe71ef8c23	2026-08-21	Avulso	62	18	4	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:19:05.533	2026-08-24 19:19:49.973	Telefone 4
+76318e18-e3fe-4ee6-934f-619d9de69d1f	2026-08-24	Avulsos	33	33	21	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 21:41:13.847	2026-08-24 21:41:13.847	Telefone 4
+a8308c8a-9c6a-42b0-859f-3c2bad542a5d	2026-08-24	Anúncio	30	0	0	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 21:41:37.147	2026-08-24 21:41:37.147	Telefone 4
 \.
 
 
@@ -666,10 +705,9 @@ eda89e3b-8ddb-4fa6-982b-1eff684be5c1	ANDRE RIVAROLA	21964394459	CENSO BOTAFOGO	B
 923db942-a8ef-4f47-be43-0b88b7532c0f	Cris Mães BSC	21999936900	Bsc	Botafogo	Rj	Travessa Pepe n98 apt 201	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	Sem preferência	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 20:44:52.37	2026-08-21 18:02:22.281
 3261d48f-a963-4edc-996a-97b366145f44	Paulo César	21994966655	Vila Isabel	Vila Isabel	Rio de Janeiro	Torres Homem 283 bloco b 202	xxx	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-20 19:59:15.784	2026-08-21 18:03:08.38
 76ddca36-76ea-4aa9-b875-a58402099501	carlos jr	21996461194	Bom apoiador	eng velho	rj	estrada do engenho velho	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-20 21:00:45.999	2026-08-20 21:00:45.999
-88d482de-30b6-4eb3-a8c5-7b6b4ac011d1	DANIELE CARDOSO	22997752535	Aniversário Leonel	PQ SANTO AMARO	CAMPOS DOS GOYTACAZESQ	RUA DR. JOSE JORGE MUNIZ N18	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	SEM PREFERENCIA	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 21:04:48.512	2026-08-20 21:04:48.512
 5f83e86b-1165-4481-9cbf-7b3e3c70a66e	daniele	00000000000000	Bom apoiador	vargem grande	Rio de Janeiro	rua serveente seis 380 casa 3a	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	consultar quando celular desbloquear	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-20 21:06:28.311	2026-08-20 21:06:28.311
+88d482de-30b6-4eb3-a8c5-7b6b4ac011d1	DANIELE CARDOSO	22997752535	Aniversário Leonel	PQ SANTO AMARO	CAMPOS DOS GOYTACAZESQ	RUA DR. JOSE JORGE MUNIZ N18	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	SEM PREFERENCIA	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 21:04:48.512	2026-08-24 15:43:36.919
 97f3cf60-8c55-49b2-8179-64f036e7f28f	ALEXANDRE MENDES	21999220874	ZONA OESTE	BANGU	RJ	RUA DOS LIMADORES N168	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	PAI DE ALEXANDRE BANGU - QUALQUER HORARIO	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 21:01:47.854	2026-08-20 21:01:47.854
-b22b5b2f-6869-40d8-813b-c3a744d11bed	CLAUDIA RODRIGUES	22974065831	Aniversário Leonel	PQ SANTO AMARO	CAMPOS DOS GOYTACAZESQ	RUA NUNES TAVARES N104	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	SEM PREFERENCIA	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 21:03:38.536	2026-08-20 21:03:38.536
 d3a6f040-cff8-4a7e-907e-b534a1f20800	Francisco	21965849531	Bom apoiador	Copacabana	Rio de Janeiro	Rua Tonelero, nº 44 — Copacabana, Rio de Janeiro/RJ — CEP 22030-002	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entregar na portaria	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-20 19:48:22.944	2026-08-21 12:55:19.128
 a860bccc-b24a-41ff-b7c6-bf8bf5c0e5fa	Carlos Elias	21965502896	Ilha	Ilha do Governador	Rio de Janeiro	xxx	xxx	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vai retirar na sede PT Ilha	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-21 14:34:53.639	2026-08-21 14:34:53.639
 fa75bb18-b6aa-4fcc-b846-204487226cf9	Neide Oliveira	5521983741628	Nova Iguaçu	Nova Iguaçu	Nova Iguaçu	---	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	retirada	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-21 15:23:20.219	2026-08-21 15:23:20.219
@@ -681,6 +719,23 @@ b0ec21d6-a793-44be-a3af-1aa80e162faa	Francisco Carlos	5521998462351	Deodoro	Deod
 e19e1e10-1dfb-4844-a032-9b5451020a0f	Ildmar Couto - Barbudo	22998223311	Região dos Lagos	Iguaba Grande	Rio de Janeiro	Rua Capitão Jorge Soares, 239 Condomínio Solemar - casa 44	Em frente ao galpão do Madeirão - Barbudo	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-21 19:17:22.48	2026-08-21 19:32:51.132
 2d9090ad-573a-4ae4-a72f-74114f26a6bd	Maria de Fatima	5521996083332	Realengo	Realengo	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 19:51:39.694	2026-08-21 19:51:39.694
 3550fccc-4b98-49c9-844d-e1e1c25260f2	Genesio BASSON	5521966053901	Ilha do Governador	Ilha do Governador	Rio de Janeiro	Rua Stela Maris 163 Casa 2 Vila Juaniza - Galeão	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 19:58:19.171	2026-08-21 19:58:19.171
+b22b5b2f-6869-40d8-813b-c3a744d11bed	CLAUDIA RODRIGUES	22974065831	Aniversário Leonel	PQ SANTO AMARO	CAMPOS DOS GOYTACAZESQ	RUA NUNES TAVARES N104	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	SEM PREFERENCIA	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 21:03:38.536	2026-08-24 15:43:14.773
+10b3bb68-b0a4-4139-b439-29a9e0962d5d	Pablo Henrique	21981700531	Insta	Engenheiro Pedreira	Rio de Janeiro	Rua Boqueirão, 3	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-24 15:53:08.584	2026-08-24 15:53:08.584
+2ef0c818-675d-4a1d-83a5-b08ad31dce41	Luiz Antonio	21968922341	Recreio	Vargem Grande	Rio de Janeiro	Rua Eliete Costa Silva Jardim casa 6	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-24 16:21:06.473	2026-08-24 16:21:06.473
+5f5890ab-6db2-47bc-ad7c-2a50062f5147	Luiz Gonzaga - Guadalupe	5521969187214	Guadalupe	Guadalupe	Rio de Janeiro	Francisco bacuri 496	\N	{Adesivo,Panfleto}	\N	1	\N	Manhã	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 16:44:31.749	2026-08-24 16:44:31.749
+7a145f91-1bb1-4660-84bd-1dbd5ef13a36	Rodrigo Nascimento de Carvalho	5522997399939	Penha	Penha	Rio de Janeiro	Avenida Dr Newton Guaraná 527 - Bloco 09 apto 302	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 16:49:20.795	2026-08-24 16:49:20.795
+c6db4c9e-4404-402b-80e1-6c1dff080a2a	Rocha	5521992270012	Cachambi	Cachambi	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 17:11:25.481	2026-08-24 17:11:25.481
+4abf08cd-7894-4e18-886b-342abc24ae4d	Tony	21997051858	Santíssimo	Santíssimo	Rio de Janeiro	Rua Caminho São Jorge 101 - 33° casa	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 17:57:45.359	2026-08-24 17:57:45.359
+f9ce73ba-926a-45e4-b3e1-9c76b38dcf3c	Maria	22998842698	Campos dos Goytacazes	Ponta da Lama	Campos dos Goytacazes	Rua João Batista de Cavalo, nº 97 — Ponta da Lama, Campos dos Goytacazes	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-24 18:02:50.093	2026-08-24 18:02:50.093
+bec69cb4-dac0-43b6-8db1-1005c08dbcbb	Catarina Rocha	21994267523	Insta	Santo Elias	Mesquita	Rua Juliana, 575	DETRAN	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:30:05.718	2026-08-24 22:30:05.718
+1c02d8c8-171e-40eb-927e-7a52eeffeed9	Eduardo Matos	21986262059	Avulso	Rocinha	RJ	Travessa Mesopotâmia, nº 35 — Barbearia do Marcos Souza	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-24 18:38:50.253	2026-08-24 19:10:47.815
+648a338f-d681-454a-880e-496d275f60aa	Maria Rosa	21959054791	Santa Teresa	Santa Teresa	Rio de Janeiro	Rua Paula Matos 148	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-24 19:13:31.977	2026-08-24 19:13:31.977
+2ae9cc75-0997-4315-8450-3e75be6c37aa	Rafael Ferreira	21999594781	Nilópolis	Nilópolis	Nilópolis	Roldão Gonçalves 1661	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 19:22:14.99	2026-08-24 19:22:14.99
+1d6abd96-5348-43d5-a70e-6faea19b23e5	Gonçalo Nunes	21982176295	Insta	Jacarepaguá	Rio de Janeiro	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 19:53:38.653	2026-08-24 19:53:38.653
+0c3fa967-f330-4cef-9d0a-a2bfaaad0ec6	Eduardo Carpenter	21988689299	Insta	XXX	Niterói	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 20:54:18.731	2026-08-24 20:54:18.731
+34f726a9-84b4-4a1a-82f2-d82ffad1aca4	Walter Francisco	21965503034	Insta	Bangu	Rio de Janeiro	Rua Caminho do Encanamento, 277	Próx. à Rua Fonseca (Shopping Bangu)	{Adesivo,Bandeira}	\N	1	\N	\N	PENDING	Entrega domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 21:13:22.221	2026-08-24 21:13:40.802
+4a7717cd-1d1c-4138-85e4-3fdd548dea15	Jederson Luiz Batista	21979415574	Insta	Oswaldo Cruz	Rio de Janeiro	Rua Adelaide Badajós, 28	Portão laranja.  Na rua do espigão	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:16:53.956	2026-08-24 22:17:20.513
+a7d08726-24e6-42df-ba06-223fb6782d3e	Rosemary	21981411735	Insta	Austin	Nova Iguaçu	Rua Aurora Monsantos, 47	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:18:40.586	2026-08-24 22:18:40.586
 \.
 
 
@@ -730,6 +785,7 @@ e11f0934-d419-4b9f-a5f4-8de175cd64e5	Cayo Cesar de Jesus sales	21987376917	Bom a
 1353d4b7-f8d0-42aa-a177-afa6b1afa012	Andressa Freitas	5521982883739	Itaguaí	Itaguaí	Rio de Janeiro	{"Fim de semana",Noite,Tarde,Manhã}	{"Agenda de rua",Panfletagem,"Redes sociais",Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-20 16:25:27.481	2026-08-20 16:25:27.481
 c0597986-a847-463e-a6e8-e11e5f72ad25	André Santana	5521982883739	Itaguaí	Itaguaí	Rio de Janeiro	{Manhã,Tarde,Noite,"Fim de semana"}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-20 16:38:25.96	2026-08-20 16:38:25.96
 43622587-8152-4ee9-a1bd-88680aba77d9	Scooby/Felipe	5521992211487	Acari	Acari	Rio de Janeiro	{Manhã}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	908477be-b210-48f9-9c42-45690c4d220c	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-21 14:01:10.312	2026-08-21 14:01:25.155
+2ca78adb-f1c4-41c8-ba55-7713665ee428	Marcos	5521979574286	Oswaldo Cruz	Oswaldo Cruz	Rio de Janeiro	{"Fim de semana",Noite,Tarde,Manhã}	{Panfletagem,"Agenda de rua","Redes sociais",Material}	\N	PENDING_CONTACT	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 17:02:59.754	2026-08-24 17:02:59.754
 \.
 
 
@@ -822,6 +878,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict fhDOu9nB6IfNx0zoRVjy90bTimekPNNoTdiiPJd153IhZObSiMCSSbBvcaWLUIh
+-- \unrestrict 1xiKxiP2wVfbtMW8HhWEWfgCG8qN7dyUV5ilNDJa3nuOlvhtsSeahmmxbKK8FOm
 
 RESET ALL;
