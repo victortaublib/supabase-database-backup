@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict 1xiKxiP2wVfbtMW8HhWEWfgCG8qN7dyUV5ilNDJa3nuOlvhtsSeahmmxbKK8FOm
+-- \restrict rWeI0aD5pCue27e611PREfYr504E9OuqHiIGP7ivzEOq4PuIpDuavGxwWAgwwEx
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -528,6 +528,15 @@ bb746065-a2bd-40c9-9dbc-9afe2a3ba3ac	CREATED	MATERIAL_REQUEST	4a7717cd-1d1c-4138
 3a80e56f-9777-479a-a32a-32b2e6f1998d	UPDATED	MATERIAL_REQUEST	4a7717cd-1d1c-4138-85e4-3fdd548dea15	Pedido de material atualizado (Jederson Luiz Batista)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:17:20.533
 1aefadf4-354a-4611-b5e8-ee5e126ac647	CREATED	MATERIAL_REQUEST	a7d08726-24e6-42df-ba06-223fb6782d3e	Pedido de material criado (Rosemary)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:18:40.602
 8a3390d8-a8da-405b-93a3-989e62fa8706	CREATED	MATERIAL_REQUEST	bec69cb4-dac0-43b6-8db1-1005c08dbcbb	Pedido de material criado (Catarina Rocha)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-24 22:30:05.771
+7be0c027-748a-4543-a42d-7fc4b2ce9fcc	CREATED	MATERIAL_REQUEST	07244331-a8bf-4503-aad6-5194d13c9c53	Pedido de material criado (Oswaldo)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-25 15:52:35.963
+86cc2b47-e2c7-4136-921d-107df633deab	CREATED	MATERIAL_REQUEST	b0f0b32a-bc7b-4663-949e-3343f40d6eb3	Pedido de material criado (Ana Lúcia)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-25 16:52:22.181
+e66a0298-55fd-4b8f-8f73-44874a2424a6	UPDATED	MATERIAL_REQUEST	07244331-a8bf-4503-aad6-5194d13c9c53	Pedido de material atualizado (Oswaldo)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-25 17:49:10.612
+18c5b360-7e04-4bd7-80e0-2bbaf87ea74a	CREATED	MATERIAL_REQUEST	4e6271ed-f19b-42d3-9e9b-66a4de00c83c	Pedido de material criado (Jailton)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-25 17:50:27.439
+976c3f70-f1f9-4209-8bfd-8324276bde1b	CREATED	MATERIAL_REQUEST	df806600-e60a-4c3e-ae58-73ea99955746	Pedido de material criado (Angela dos Santos)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-25 19:51:36.209
+0fbf1722-9aee-4b49-abd2-7829f05c35e2	CREATED	MATERIAL_REQUEST	323c1bca-aa09-4842-babf-3ae4b23763d9	Pedido de material criado (Azevedo)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-25 19:56:56.717
+990a738c-6677-483e-816c-9d3abe1bb379	CREATED	MATERIAL_REQUEST	a13c2de0-ce7e-49b3-9edd-a63cd3dfa78d	Pedido de material criado (Nilzete de Jesus)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-25 19:57:23.47
+a758ff5c-6b19-4c1f-aaf8-47d70a197a6f	CREATED	MATERIAL_REQUEST	9e565e7e-c635-400a-9004-1711b572d69b	Pedido de material criado (Leo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-25 20:28:34.848
+2300de8d-39b9-4f29-929f-6905bcc2c1af	CREATED	MATERIAL_REQUEST	37f640c2-4f7f-4c22-8d9c-f053ffd6ba5f	Pedido de material criado (Maria Aparecida)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-25 20:30:51.515
 \.
 
 
@@ -736,6 +745,14 @@ bec69cb4-dac0-43b6-8db1-1005c08dbcbb	Catarina Rocha	21994267523	Insta	Santo Elia
 34f726a9-84b4-4a1a-82f2-d82ffad1aca4	Walter Francisco	21965503034	Insta	Bangu	Rio de Janeiro	Rua Caminho do Encanamento, 277	Próx. à Rua Fonseca (Shopping Bangu)	{Adesivo,Bandeira}	\N	1	\N	\N	PENDING	Entrega domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 21:13:22.221	2026-08-24 21:13:40.802
 4a7717cd-1d1c-4138-85e4-3fdd548dea15	Jederson Luiz Batista	21979415574	Insta	Oswaldo Cruz	Rio de Janeiro	Rua Adelaide Badajós, 28	Portão laranja.  Na rua do espigão	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:16:53.956	2026-08-24 22:17:20.513
 a7d08726-24e6-42df-ba06-223fb6782d3e	Rosemary	21981411735	Insta	Austin	Nova Iguaçu	Rua Aurora Monsantos, 47	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:18:40.586	2026-08-24 22:18:40.586
+b0f0b32a-bc7b-4663-949e-3343f40d6eb3	Ana Lúcia	21976994163	Facebook	Araruama	Rio de Janeiro	Rua Cascatinha lote 16 quadra 14 - Iguabinha	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-25 16:52:22.138	2026-08-25 16:52:22.138
+07244331-a8bf-4503-aad6-5194d13c9c53	Oswaldo	21998223442	Penha	Penha	RJ	Rua Dionísio, nº 52	\N	{Bandeira}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-25 15:52:35.93	2026-08-25 17:49:10.581
+4e6271ed-f19b-42d3-9e9b-66a4de00c83c	Jailton	21969346113	Bangu	Bangu	RJ	Avenida Brasil, nº 33.000, Bloco 14, Apto. 303	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-25 17:50:27.414	2026-08-25 17:50:27.414
+df806600-e60a-4c3e-ae58-73ea99955746	Angela dos Santos	21965121261	Insta	Engenheiro Leal	Rio de Janeiro	Rua Enaldo dos Santos Araujo 29	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-25 19:51:36.161	2026-08-25 19:51:36.161
+323c1bca-aa09-4842-babf-3ae4b23763d9	Azevedo	21988884385	Coelho Neto	Coelho Neto	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-25 19:56:56.695	2026-08-25 19:56:56.695
+a13c2de0-ce7e-49b3-9edd-a63cd3dfa78d	Nilzete de Jesus	21970555427	Belford Roxo	Belford Roxo	Belford Roxo	RUA 28 DE SETEMBRO  N174	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-25 19:57:23.453	2026-08-25 19:57:23.453
+9e565e7e-c635-400a-9004-1711b572d69b	Leo	21992760123	- Lindbergh	Barra Olímpica	Rio de Janeiro	Av. Salvador Allende, 4724	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-25 20:28:34.819	2026-08-25 20:28:34.819
+37f640c2-4f7f-4c22-8d9c-f053ffd6ba5f	Maria Aparecida	21992259352	Lindbergh	Ponte das garças	Três Rios	Rua Feliciano Lima, 197	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-25 20:30:51.498	2026-08-25 20:30:51.498
 \.
 
 
@@ -878,6 +895,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict 1xiKxiP2wVfbtMW8HhWEWfgCG8qN7dyUV5ilNDJa3nuOlvhtsSeahmmxbKK8FOm
+-- \unrestrict rWeI0aD5pCue27e611PREfYr504E9OuqHiIGP7ivzEOq4PuIpDuavGxwWAgwwEx
 
 RESET ALL;
