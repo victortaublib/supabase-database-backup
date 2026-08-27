@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict rWeI0aD5pCue27e611PREfYr504E9OuqHiIGP7ivzEOq4PuIpDuavGxwWAgwwEx
+-- \restrict zvPqWW3qrQbiY9fK1vRtKRdwsLeIYIOXKuK81kPrBwZU1hC2ZvfkcrgIPmkL8WY
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -537,6 +537,28 @@ e66a0298-55fd-4b8f-8f73-44874a2424a6	UPDATED	MATERIAL_REQUEST	07244331-a8bf-4503
 990a738c-6677-483e-816c-9d3abe1bb379	CREATED	MATERIAL_REQUEST	a13c2de0-ce7e-49b3-9edd-a63cd3dfa78d	Pedido de material criado (Nilzete de Jesus)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-25 19:57:23.47
 a758ff5c-6b19-4c1f-aaf8-47d70a197a6f	CREATED	MATERIAL_REQUEST	9e565e7e-c635-400a-9004-1711b572d69b	Pedido de material criado (Leo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-25 20:28:34.848
 2300de8d-39b9-4f29-929f-6905bcc2c1af	CREATED	MATERIAL_REQUEST	37f640c2-4f7f-4c22-8d9c-f053ffd6ba5f	Pedido de material criado (Maria Aparecida)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-25 20:30:51.515
+e7958e60-2cf2-4006-ad67-28a9312ab6ca	UPDATED	MATERIAL_REQUEST	5f5890ab-6db2-47bc-ad7c-2a50062f5147	Pedido de material atualizado (Luiz Gonzaga - Guadalupe)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:00:39.591
+d8c9b0e1-bec2-4c48-9de2-16026580bd1b	CREATED	MATERIAL_REQUEST	22af291c-439b-4a22-88d3-b48985fcb5ac	Pedido de material criado (Roberto "Come Bife")	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:03:40.744
+5e2bc5f8-c919-4152-b2e8-b91a296ca897	UPDATED	MATERIAL_REQUEST	22af291c-439b-4a22-88d3-b48985fcb5ac	Pedido de material atualizado (Roberto "Come Bife")	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:03:47.321
+202ae7e7-96d8-4877-85fd-daa0c936b1b9	CREATED	MATERIAL_REQUEST	7e9672c3-b146-4493-8976-344383c83670	Pedido de material criado (Tigre)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:06:00.521
+e6f47095-409b-4b0b-b200-28e73e925c91	UPDATED	MATERIAL_REQUEST	7e9672c3-b146-4493-8976-344383c83670	Pedido de material atualizado (Tigre)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:06:07.744
+ec13151e-98c0-4710-b3c8-2dc74f2e7289	UPDATED	MATERIAL_REQUEST	07244331-a8bf-4503-aad6-5194d13c9c53	Pedido de material atualizado (Oswaldo)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:06:38.513
+0de009f0-1c75-4514-b403-e70222a8a297	UPDATED	MATERIAL_REQUEST	df806600-e60a-4c3e-ae58-73ea99955746	Pedido de material atualizado (Angela dos Santos)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:06:56.13
+0e399441-a61f-491e-b00b-1318f59fcaa4	UPDATED	MATERIAL_REQUEST	b0ec21d6-a793-44be-a3af-1aa80e162faa	Pedido de material atualizado (Francisco Carlos)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:07:08.764
+a001efc2-1546-4ed8-9de4-c204e1dec06e	UPDATED	MATERIAL_REQUEST	4a7717cd-1d1c-4138-85e4-3fdd548dea15	Pedido de material atualizado (Jederson Luiz Batista)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-26 15:07:20.998
+0cc7289c-f6bf-47db-b32f-fb5966d9ac1a	CREATED	MATERIAL_REQUEST	299a8989-1c7c-4729-9a40-e17f38bb17c8	Pedido de material criado (Rudnei Marinho)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-26 15:30:48.121
+55f76abe-0328-45a7-89ac-d5b148bd2539	CREATED	MATERIAL_REQUEST	2dcc5485-add7-4023-a226-776f84f860ea	Pedido de material criado (Pedro Paulo)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-26 15:41:13.638
+374266b7-b7c2-4006-a400-387c7c0ce950	CREATED	MATERIAL_REQUEST	38107f42-6692-4788-b2c5-dc7061b6fcb4	Pedido de material criado (Fernanda Montenegro)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-26 16:16:45.262
+a74d7334-a603-4928-a298-44ac97f61514	CREATED	MATERIAL_REQUEST	7dbded90-dad7-42b6-a024-be297025add8	Pedido de material criado (Fabricia Maria)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-26 16:40:10.712
+1f0e0a9d-d289-4bd7-b213-498e97fe9c72	CREATED	MATERIAL_REQUEST	7cd9de8e-76c0-43fd-a45c-9f9b148cb249	Pedido de material criado (Marcel)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-26 17:31:55.842
+526e52da-553f-4b76-a5ec-fb5960cf3641	CREATED	MATERIAL_REQUEST	0cd2b1a2-11a2-4e64-ad68-d9a8313bce85	Pedido de material criado (Bruno Medeiros)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-26 17:33:31.373
+d5a2efcf-1fc8-43d1-b219-07121d627092	CREATED	MATERIAL_REQUEST	48d192b1-7a6e-496a-bedb-fa472f2d80af	Pedido de material criado (Joaquim Souza)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-26 17:36:15.771
+fddcc8e5-a25d-424b-9a8b-7f8155ac8212	CREATED	MATERIAL_REQUEST	19eeccb9-935f-47a9-8a87-62ff9a45d494	Pedido de material criado (José Cláudio)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-08-26 18:33:12.868
+63720ede-1892-4ba6-98e0-d33c5d91b7d3	CREATED	MATERIAL_REQUEST	964687c7-cf71-4761-a7e2-8eed706cd4b3	Pedido de material criado (Monica)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-26 18:35:34.412
+d3b255fa-624f-40d4-9268-ce1de584eac3	CREATED	DAILY_REPORT	6fe890c8-5142-403a-aa5e-bc97b0c726a4	Relatório criado (Avulsos, 2026-08-26)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-26 19:55:50.922
+804598d9-f40d-462b-954a-2ad4fb645513	CREATED	MATERIAL_REQUEST	43413c55-00df-4551-92bf-3df7d2f7d4d8	Pedido de material criado (Alexandre)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-26 20:02:19.151
+3184101f-9cbe-441c-acb6-573832c7851c	CREATED	MATERIAL_REQUEST	40ec6742-d586-425d-b378-eecca593cc61	Pedido de material criado (Patrícia Inês)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-26 23:03:54.583
+67a2ecb3-6191-4380-84f8-ab32dcdf093b	UPDATED	MATERIAL_REQUEST	9e565e7e-c635-400a-9004-1711b572d69b	Pedido de material atualizado (Leo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-26 23:04:20.812
 \.
 
 
@@ -591,6 +613,7 @@ b47d4f00-68bd-467a-81c0-09957c026108	2026-08-20	Avulso	39	25	25	0	0	\N	908477be-
 3da93225-1aab-4e34-807c-e9fe71ef8c23	2026-08-21	Avulso	62	18	4	0	0	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-08-24 19:19:05.533	2026-08-24 19:19:49.973	Telefone 4
 76318e18-e3fe-4ee6-934f-619d9de69d1f	2026-08-24	Avulsos	33	33	21	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 21:41:13.847	2026-08-24 21:41:13.847	Telefone 4
 a8308c8a-9c6a-42b0-859f-3c2bad542a5d	2026-08-24	Anúncio	30	0	0	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-24 21:41:37.147	2026-08-24 21:41:37.147	Telefone 4
+6fe890c8-5142-403a-aa5e-bc97b0c726a4	2026-08-26	Avulsos	33	33	9	0	0	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-26 19:55:50.886	2026-08-26 19:55:50.886	Telefone 4
 \.
 
 
@@ -723,7 +746,6 @@ fa75bb18-b6aa-4fcc-b846-204487226cf9	Neide Oliveira	5521983741628	Nova Iguaçu	N
 d9347846-b0a6-4f54-8414-0cf97fa72d80	Luciana Vilela	21970149022	Ramos	Ramos	Rio de Janeiro	Avenida dos Campeões 603 - bl 6 apto 301	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-21 15:48:45.813	2026-08-21 15:48:45.813
 d241885d-c198-4f87-a8b4-089066698905	Diego (Saens Peña)	21968615431	Saens Peña	Saens Peña	Rio de Janeiro	Conde de B. Fim 338	\N	{Panfleto,Adesivo}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 18:07:15.651	2026-08-21 18:07:22.155
 0fe12ba1-8543-438b-8fae-5c09c73fb98c	Carlos	21970028906	Agostinho Porto	Agostinho Porto	Rio de Janeiro	Rua Prefeito Oswaldo Marcondes 366	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Somente panfletos	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-21 18:32:21.228	2026-08-21 18:32:21.228
-b0ec21d6-a793-44be-a3af-1aa80e162faa	Francisco Carlos	5521998462351	Deodoro	Deodoro	Rio de Janeiro	Travessa Antônio Firmino - Casa 27, Quadra 5 - Gleba C	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 19:01:33.853	2026-08-21 19:01:33.853
 77639ea3-9c6c-45f8-934e-4f544724440b	Sarah Soriano	5521989712679	Tijuca	Tijuca	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 19:08:31.549	2026-08-21 19:08:31.549
 e19e1e10-1dfb-4844-a032-9b5451020a0f	Ildmar Couto - Barbudo	22998223311	Região dos Lagos	Iguaba Grande	Rio de Janeiro	Rua Capitão Jorge Soares, 239 Condomínio Solemar - casa 44	Em frente ao galpão do Madeirão - Barbudo	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-21 19:17:22.48	2026-08-21 19:32:51.132
 2d9090ad-573a-4ae4-a72f-74114f26a6bd	Maria de Fatima	5521996083332	Realengo	Realengo	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 19:51:39.694	2026-08-21 19:51:39.694
@@ -731,7 +753,6 @@ e19e1e10-1dfb-4844-a032-9b5451020a0f	Ildmar Couto - Barbudo	22998223311	Região 
 b22b5b2f-6869-40d8-813b-c3a744d11bed	CLAUDIA RODRIGUES	22974065831	Aniversário Leonel	PQ SANTO AMARO	CAMPOS DOS GOYTACAZESQ	RUA NUNES TAVARES N104	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	SEM PREFERENCIA	eaa6d959-a24c-4881-a882-061c4cd19902	\N	2026-08-20 21:03:38.536	2026-08-24 15:43:14.773
 10b3bb68-b0a4-4139-b439-29a9e0962d5d	Pablo Henrique	21981700531	Insta	Engenheiro Pedreira	Rio de Janeiro	Rua Boqueirão, 3	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	17852695-98dd-457e-8459-c409d223d417	\N	2026-08-24 15:53:08.584	2026-08-24 15:53:08.584
 2ef0c818-675d-4a1d-83a5-b08ad31dce41	Luiz Antonio	21968922341	Recreio	Vargem Grande	Rio de Janeiro	Rua Eliete Costa Silva Jardim casa 6	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-24 16:21:06.473	2026-08-24 16:21:06.473
-5f5890ab-6db2-47bc-ad7c-2a50062f5147	Luiz Gonzaga - Guadalupe	5521969187214	Guadalupe	Guadalupe	Rio de Janeiro	Francisco bacuri 496	\N	{Adesivo,Panfleto}	\N	1	\N	Manhã	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 16:44:31.749	2026-08-24 16:44:31.749
 7a145f91-1bb1-4660-84bd-1dbd5ef13a36	Rodrigo Nascimento de Carvalho	5522997399939	Penha	Penha	Rio de Janeiro	Avenida Dr Newton Guaraná 527 - Bloco 09 apto 302	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 16:49:20.795	2026-08-24 16:49:20.795
 c6db4c9e-4404-402b-80e1-6c1dff080a2a	Rocha	5521992270012	Cachambi	Cachambi	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 17:11:25.481	2026-08-24 17:11:25.481
 4abf08cd-7894-4e18-886b-342abc24ae4d	Tony	21997051858	Santíssimo	Santíssimo	Rio de Janeiro	Rua Caminho São Jorge 101 - 33° casa	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 17:57:45.359	2026-08-24 17:57:45.359
@@ -743,16 +764,31 @@ bec69cb4-dac0-43b6-8db1-1005c08dbcbb	Catarina Rocha	21994267523	Insta	Santo Elia
 1d6abd96-5348-43d5-a70e-6faea19b23e5	Gonçalo Nunes	21982176295	Insta	Jacarepaguá	Rio de Janeiro	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 19:53:38.653	2026-08-24 19:53:38.653
 0c3fa967-f330-4cef-9d0a-a2bfaaad0ec6	Eduardo Carpenter	21988689299	Insta	XXX	Niterói	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 20:54:18.731	2026-08-24 20:54:18.731
 34f726a9-84b4-4a1a-82f2-d82ffad1aca4	Walter Francisco	21965503034	Insta	Bangu	Rio de Janeiro	Rua Caminho do Encanamento, 277	Próx. à Rua Fonseca (Shopping Bangu)	{Adesivo,Bandeira}	\N	1	\N	\N	PENDING	Entrega domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 21:13:22.221	2026-08-24 21:13:40.802
-4a7717cd-1d1c-4138-85e4-3fdd548dea15	Jederson Luiz Batista	21979415574	Insta	Oswaldo Cruz	Rio de Janeiro	Rua Adelaide Badajós, 28	Portão laranja.  Na rua do espigão	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:16:53.956	2026-08-24 22:17:20.513
 a7d08726-24e6-42df-ba06-223fb6782d3e	Rosemary	21981411735	Insta	Austin	Nova Iguaçu	Rua Aurora Monsantos, 47	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:18:40.586	2026-08-24 22:18:40.586
 b0f0b32a-bc7b-4663-949e-3343f40d6eb3	Ana Lúcia	21976994163	Facebook	Araruama	Rio de Janeiro	Rua Cascatinha lote 16 quadra 14 - Iguabinha	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-25 16:52:22.138	2026-08-25 16:52:22.138
-07244331-a8bf-4503-aad6-5194d13c9c53	Oswaldo	21998223442	Penha	Penha	RJ	Rua Dionísio, nº 52	\N	{Bandeira}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-25 15:52:35.93	2026-08-25 17:49:10.581
+df806600-e60a-4c3e-ae58-73ea99955746	Angela dos Santos	21965121261	Insta	Engenheiro Leal	Rio de Janeiro	Rua Enaldo dos Santos Araujo 29	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-25 19:51:36.161	2026-08-26 15:06:56.113
 4e6271ed-f19b-42d3-9e9b-66a4de00c83c	Jailton	21969346113	Bangu	Bangu	RJ	Avenida Brasil, nº 33.000, Bloco 14, Apto. 303	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-25 17:50:27.414	2026-08-25 17:50:27.414
-df806600-e60a-4c3e-ae58-73ea99955746	Angela dos Santos	21965121261	Insta	Engenheiro Leal	Rio de Janeiro	Rua Enaldo dos Santos Araujo 29	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-25 19:51:36.161	2026-08-25 19:51:36.161
+07244331-a8bf-4503-aad6-5194d13c9c53	Oswaldo	21998223442	Penha	Penha	RJ	Rua Dionísio, nº 52	\N	{Bandeira}	\N	1	\N	\N	DELIVERED	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-08-25 15:52:35.93	2026-08-26 15:06:38.496
+b0ec21d6-a793-44be-a3af-1aa80e162faa	Francisco Carlos	5521998462351	Deodoro	Deodoro	Rio de Janeiro	Travessa Antônio Firmino - Casa 27, Quadra 5 - Gleba C	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-21 19:01:33.853	2026-08-26 15:07:08.75
 323c1bca-aa09-4842-babf-3ae4b23763d9	Azevedo	21988884385	Coelho Neto	Coelho Neto	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-25 19:56:56.695	2026-08-25 19:56:56.695
 a13c2de0-ce7e-49b3-9edd-a63cd3dfa78d	Nilzete de Jesus	21970555427	Belford Roxo	Belford Roxo	Belford Roxo	RUA 28 DE SETEMBRO  N174	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-25 19:57:23.453	2026-08-25 19:57:23.453
-9e565e7e-c635-400a-9004-1711b572d69b	Leo	21992760123	- Lindbergh	Barra Olímpica	Rio de Janeiro	Av. Salvador Allende, 4724	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-25 20:28:34.819	2026-08-25 20:28:34.819
 37f640c2-4f7f-4c22-8d9c-f053ffd6ba5f	Maria Aparecida	21992259352	Lindbergh	Ponte das garças	Três Rios	Rua Feliciano Lima, 197	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-25 20:30:51.498	2026-08-25 20:30:51.498
+5f5890ab-6db2-47bc-ad7c-2a50062f5147	Luiz Gonzaga - Guadalupe	5521969187214	Guadalupe	Guadalupe	Rio de Janeiro	Francisco bacuri 496	\N	{Adesivo,Panfleto}	\N	1	\N	Manhã	DELIVERED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-24 16:44:31.749	2026-08-26 15:00:39.556
+22af291c-439b-4a22-88d3-b48985fcb5ac	Roberto "Come Bife"	21972258757	Vicente de Carvalho	Vicente de Carvalho	Rio de Janeiro	Rua Maria Enfermeira 103	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-26 15:03:40.725	2026-08-26 15:03:47.307
+7e9672c3-b146-4493-8976-344383c83670	Tigre	21998864647	Bento Ribeiro	Bento Ribeiro	Rio de Janeiro	Rua Cembira 161	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-26 15:06:00.498	2026-08-26 15:06:07.724
+4a7717cd-1d1c-4138-85e4-3fdd548dea15	Jederson Luiz Batista	21979415574	Insta	Oswaldo Cruz	Rio de Janeiro	Rua Adelaide Badajós, 28	Portão laranja.  Na rua do espigão	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-24 22:16:53.956	2026-08-26 15:07:20.983
+299a8989-1c7c-4729-9a40-e17f38bb17c8	Rudnei Marinho	21975845500	Cosmos	Cosmos	Rio de Janeiro	Rua Vilage Paçuaré 10	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-26 15:30:48.089	2026-08-26 15:30:48.089
+2dcc5485-add7-4023-a226-776f84f860ea	Pedro Paulo	21993613246	SOLTO	Marechal Hermes	Rio de Janeiro	Rua João Vicente 1511	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-26 15:41:13.603	2026-08-26 15:41:13.603
+38107f42-6692-4788-b2c5-dc7061b6fcb4	Fernanda Montenegro	21983400666	Insta	Recreio dos Bandeirantes	Rio de Janeiro	xxx	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-26 16:16:45.229	2026-08-26 16:16:45.229
+7dbded90-dad7-42b6-a024-be297025add8	Fabricia Maria	21988217818	Insta	Figueira - Magé	Rio de Janeiro	Rua Doutor João Bruno 195	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-26 16:40:10.682	2026-08-26 16:40:10.682
+7cd9de8e-76c0-43fd-a45c-9f9b148cb249	Marcel	21974751371	Insta	XXX	Nilópolis	XXX	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-26 17:31:55.806	2026-08-26 17:31:55.806
+0cd2b1a2-11a2-4e64-ad68-d9a8313bce85	Bruno Medeiros	21978590349	Insta	XXX	São Gonçalo	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Ven retirar	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-26 17:33:31.345	2026-08-26 17:33:31.345
+48d192b1-7a6e-496a-bedb-fa472f2d80af	Joaquim Souza	5521959066759	Nova Iguaçu	Nova Iguaçu	Nova Iguaçu	Rua Otávio Tarquínio, 238 - loja 17	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-08-26 17:36:15.752	2026-08-26 17:36:15.752
+19eeccb9-935f-47a9-8a87-62ff9a45d494	José Cláudio	21993995494	Insta	Mesquita	Rio de Janeiro	Rua Piaçava 344 - casa 1 Banco de Areia	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-08-26 18:33:12.824	2026-08-26 18:33:12.824
+964687c7-cf71-4761-a7e2-8eed706cd4b3	Monica	21981940813	Insta	Santa Cruz	Rio de Janeiro	Av. Brasil, 62001. Rua D, casa 09	Parque Tropical	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio. \nVolta de São Paulo dia 05/09.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-26 18:35:34.392	2026-08-26 18:35:34.392
+43413c55-00df-4551-92bf-3df7d2f7d4d8	Alexandre	21982608397	Insta	Guadalupe	Rio de Janeiro	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-26 20:02:19.053	2026-08-26 20:02:19.053
+40ec6742-d586-425d-b378-eecca593cc61	Patrícia Inês	22997545312	Insta	Parque Leopoldina	Campos dos Goytacazes	Artur Emiliano Costa, 77	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-26 23:03:54.533	2026-08-26 23:03:54.533
+9e565e7e-c635-400a-9004-1711b572d69b	Leo	21992760123	Lindbergh	Barra Olímpica	Rio de Janeiro	Av. Salvador Allende, 4724	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-25 20:28:34.819	2026-08-26 23:04:20.795
 \.
 
 
@@ -895,6 +931,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict rWeI0aD5pCue27e611PREfYr504E9OuqHiIGP7ivzEOq4PuIpDuavGxwWAgwwEx
+-- \unrestrict zvPqWW3qrQbiY9fK1vRtKRdwsLeIYIOXKuK81kPrBwZU1hC2ZvfkcrgIPmkL8WY
 
 RESET ALL;
