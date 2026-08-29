@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict u5P7kapT0tahfm6YPQiZDnf3ynQ8wj9mQOYnrzIMvhwj2QEXd8YO3Cm6bT9GbQN
+-- \restrict cdZrxK2q9lJbubwFs3kXdZ7ymAXMddghghb8rkhUNEad1K0rXMEJPizeuIQbfee
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -572,6 +572,12 @@ e4f8b0a2-f6ef-4563-ac5b-0d0aba265bf5	CREATED	MATERIAL_REQUEST	c9036410-9ea9-4ea9
 6a3e4fce-fed3-4d38-86c8-74aaec708a54	CREATED	MATERIAL_REQUEST	e5af7ebe-4e4d-4291-aaf5-3918c4e785ff	Pedido de material criado (Aurora)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-27 22:47:32.83
 1e0e6572-5cfe-4868-b459-83a7cb0c4238	CREATED	MATERIAL_REQUEST	bb2803eb-a8ee-4b33-81f3-0fea75df7311	Pedido de material criado (Michele)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-27 22:49:59.197
 b9d4f919-26f7-4527-9606-84ecfef947a2	CREATED	MATERIAL_REQUEST	dd679f83-e4d0-4b1c-a482-c95b4003cf60	Pedido de material criado (Jozinaldo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-27 23:15:06.608
+e83df8a4-c5e8-4695-86ad-cc5c7cea5da8	UPDATED	DEMAND	e2608c02-e213-4067-a11a-ea78166e5326	Demanda atualizada (Poda de árvore — Rodrigo)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-28 16:12:27.369
+8c70d2fd-d84d-4cf2-a194-5422982a8f3c	CREATED	MATERIAL_REQUEST	0d7f5d23-633e-4600-ae14-fc53a17a64c3	Pedido de material criado (Emilia Oliveira)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-28 17:31:26.539
+d146bcf7-7e61-4c18-a71f-aa19aaf9b141	CREATED	MATERIAL_REQUEST	fa44dd36-033c-4207-aa80-8d3ca684b4b8	Pedido de material criado (Josivaldo)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-28 18:50:40.583
+3cec2c6f-5670-4a65-b6ae-35df741562c1	CREATED	MATERIAL_REQUEST	f380170d-c8a0-4a30-a160-25e586506231	Pedido de material criado (Evandro Zé)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-28 18:53:06.243
+0c7f78ee-ec3c-4096-b2d8-0ee4512ce7b7	CREATED	MATERIAL_REQUEST	d5343ffe-7c65-40e0-8c95-0f3fce1bd798	Pedido de material criado (McMarcelo Brigadeiro)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-08-28 19:19:56.782
+c69104d3-aba9-4817-9a43-0924640f213c	CREATED	MATERIAL_REQUEST	40b6ba46-c15e-4bbe-9d91-2f0c8389dc77	Pedido de material criado (Lívia Martins)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-08-28 22:17:42.005
 \.
 
 
@@ -636,8 +642,8 @@ a8308c8a-9c6a-42b0-859f-3c2bad542a5d	2026-08-24	Anúncio	30	0	0	0	0	\N	3cb18ea4-
 --
 
 COPY "public"."demandas" ("id", "fullName", "phone", "type", "tag", "neighborhood", "city", "fullAddress", "referencePoint", "description", "protocolNumber", "protocolDate", "responsibleAssessor", "status", "notes", "userId", "createdAt", "updatedAt") FROM stdin;
-e2608c02-e213-4067-a11a-ea78166e5326	Rodrigo	21979376057	Poda de árvore	Guararapes/Cosme Velho	Cosme Velho	Rio de Janeiro	Rua João De Lerry 178	Quadra Cerra	Coqueiro precisa ser removido	RIO-33055082-2	2026-08-10	Gustavo	IN_FOLLOW_UP	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-11 14:42:44.513	2026-08-11 15:00:34.702
 c64f5cf5-2bfd-400d-8c18-70998cd6c17e	Lucas Lugon	5521969630991	Cadastro de Currículo	Belford Roxo	Belford Roxo	Belford Roxo	Rua Teresinha Fernandes, 114	\N	Precisa cadastrar currículo	\N	\N	\N	REGISTERED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-14 17:49:58.392	2026-08-14 17:49:58.392
+e2608c02-e213-4067-a11a-ea78166e5326	Rodrigo	21979376057	Poda de árvore	Guararapes/Cosme Velho	Cosme Velho	Rio de Janeiro	Rua João De Lerry 178	Quadra Cerra	Coqueiro precisa ser removido	RIO-33055082-2	2026-08-10	Gustavo	RESOLVED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-11 14:42:44.513	2026-08-28 16:12:27.328
 \.
 
 
@@ -647,6 +653,7 @@ c64f5cf5-2bfd-400d-8c18-70998cd6c17e	Lucas Lugon	5521969630991	Cadastro de Curr�
 
 COPY "public"."demand_timeline_events" ("id", "demandId", "eventType", "fromStatus", "toStatus", "note", "userId", "createdAt") FROM stdin;
 4cdd6569-d0f3-43a3-9669-489dbba3222d	c64f5cf5-2bfd-400d-8c18-70998cd6c17e	CREATED	\N	REGISTERED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-14 17:49:58.444
+682424ef-c699-4013-9832-ba0dd92c7145	e2608c02-e213-4067-a11a-ea78166e5326	STATUS_CHANGED	IN_FOLLOW_UP	RESOLVED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-28 16:12:27.399
 \.
 
 
@@ -813,6 +820,11 @@ c9036410-9ea9-4ea9-bc72-6697207a24f1	Eduardo	21983467450	Insta	Piabetá	Rio de J
 e5af7ebe-4e4d-4291-aaf5-3918c4e785ff	Aurora	21981863403	Lindbergh	Paciência	Rio de Janeiro	Estrada do Campinho, 7005 - Bloco 1, Apt. 403	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio. Se não estiver, deixar com porteiro (dar detalhes sobre o destinatário).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-27 22:47:32.782	2026-08-27 22:47:32.782
 bb2803eb-a8ee-4b33-81f3-0fea75df7311	Michele	21991629290	Lindbergh	Senador Camará	Rio de Janeiro	Av. Santa Cruz, 7190 - Bloco 20, Apt. 204	Condomínio Destri	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-27 22:49:59.173	2026-08-27 22:49:59.173
 dd679f83-e4d0-4b1c-a482-c95b4003cf60	Jozinaldo	21979608339	Insta	XXX	Rio de Janeiro	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-27 23:15:06.579	2026-08-27 23:15:06.579
+0d7f5d23-633e-4600-ae14-fc53a17a64c3	Emilia Oliveira	21993590180	Insta	Realengo	Rio de Janeiro	Rua Leonor Chrisman Mulle, 124	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-28 17:31:26.479	2026-08-28 17:31:26.479
+fa44dd36-033c-4207-aa80-8d3ca684b4b8	Josivaldo	21979608339	-	Centro	Rio de Janeiro	Av. Erasmo Braga 255	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Portaria - Depois das 18h até as 22h - Um pouco de cada dobra - Iguinho	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-28 18:50:40.538	2026-08-28 18:50:40.538
+f380170d-c8a0-4a30-a160-25e586506231	Evandro Zé	21969811208	-	Realengo	Rio de Janeiro	Rua do Governo 676, Bloco C - AP 204	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	Léo + Reimont	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-28 18:53:06.227	2026-08-28 18:53:06.227
+d5343ffe-7c65-40e0-8c95-0f3fce1bd798	McMarcelo Brigadeiro	21971594929	Campo Grande	Campo Grande	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Retirada	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-08-28 19:19:56.741	2026-08-28 19:19:56.741
+40b6ba46-c15e-4bbe-9d91-2f0c8389dc77	Lívia Martins	21995232451	Bangu	Senador Camará	Rio de Janeiro	Rua Coroados, 55 - Condomínio do Edifício Amazonas	Praça do Jabour	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-08-28 22:17:41.946	2026-08-28 22:17:41.946
 \.
 
 
@@ -955,6 +967,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict u5P7kapT0tahfm6YPQiZDnf3ynQ8wj9mQOYnrzIMvhwj2QEXd8YO3Cm6bT9GbQN
+-- \unrestrict cdZrxK2q9lJbubwFs3kXdZ7ymAXMddghghb8rkhUNEad1K0rXMEJPizeuIQbfee
 
 RESET ALL;
