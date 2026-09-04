@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict m14fMRcuoOUuZ6oZ2dcM8tdAM2aIEgOYV9zMOjMNSkKt84I8tuOsHubphPyDvNe
+-- \restrict d5mS8JWKbUejr0rucAiZqEEqnbRmcyYZ0PMgrlFi9hxMmwZgb0k9AfY0We6kPWc
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -652,6 +652,18 @@ f642c532-1832-4fc7-9ae7-5ad49918f5a1	CREATED	MATERIAL_REQUEST	cc648bb2-3d7e-4e5b
 78277e27-ab8d-45a1-86cf-04eacfbfc3a4	CREATED	MATERIAL_REQUEST	5840f3a6-0c22-46bd-bc48-8064a0ebe10d	Pedido de material criado (Dora)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-02 22:50:20.747
 6d4d6892-f3ef-4ac9-a9aa-858a694ee75a	CREATED	MATERIAL_REQUEST	1f24095d-c17a-49c2-a289-c5d8f359e2f9	Pedido de material criado (Alfredo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-02 22:51:38.827
 5dcd2d32-8458-4cb8-99e7-3e6ceaa151cc	CREATED	MATERIAL_REQUEST	8152ebc6-6023-4c11-917e-870979b47274	Pedido de material criado (Eduardo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-02 22:53:11.677
+292fa81c-0a22-4965-8b7a-3149ffb36d0a	CREATED	MATERIAL_REQUEST	30d21566-7d0b-4bd3-961a-16861897c8d1	Pedido de material criado (Suely Costa)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-03 17:03:10.463
+f3e95954-dbf3-480f-aee0-03349b7fc7f4	CREATED	MATERIAL_REQUEST	e127b669-bfb9-48b9-be1d-6409ce7f27ef	Pedido de material criado (Luiz Carlos)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-03 17:31:00.759
+bab56ded-01d8-4b0b-b08b-bc6b13a81f94	CREATED	MATERIAL_REQUEST	b5efb47a-b0b6-46aa-b7eb-844d5fdc67e0	Pedido de material criado (Neide)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 18:16:21.808
+e82e2512-9723-4403-98d9-1174670c3b6b	CREATED	MATERIAL_REQUEST	f67c659b-438a-4818-930c-041852dfae2e	Pedido de material criado (Latif)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-03 19:02:23.563
+63c848a9-aee2-4ca7-b90a-a0bf9c576262	CREATED	DEMAND	4a33ae22-9cea-4adb-bbcf-eb7ba0eaecff	Demanda criada (Fiscalização de lava jato — Edna)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-03 19:31:16.945
+a3a36fca-fd91-4212-ae74-ed4ebce187c0	CREATED	MATERIAL_REQUEST	3290a747-166a-4512-a387-97637b98a0d6	Pedido de material criado (Gabriel)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 19:32:26.924
+74e71369-88ec-438c-914a-e5b1ba23e4b9	CREATED	MATERIAL_REQUEST	3ae2393f-846b-415d-a478-b2efe20ed046	Pedido de material criado (Saimon Verlingue)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-03 20:43:12.371
+9ed4ebe3-7713-4293-aa94-631ecd27e255	CREATED	MATERIAL_REQUEST	26c5f4e7-7f11-4ba1-a505-d27fcc7b0a37	Pedido de material criado (Rogerio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 20:52:28.056
+f8b8c81e-fe2c-4a92-a6c2-5f8551ce4f8b	CREATED	MATERIAL_REQUEST	16894a60-1e26-456a-b833-840800dcda34	Pedido de material criado (Yuri)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 21:30:04.451
+62042510-fe22-4bec-86fc-08e169ab3984	CREATED	MATERIAL_REQUEST	7ff423e9-c2db-4c22-8c26-23945e657a97	Pedido de material criado (Eliana)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 22:04:04.918
+69a57966-a19c-41d6-9083-245a52ebc88e	CREATED	MATERIAL_REQUEST	033c8308-1726-4865-921f-cc86c5bbbb93	Pedido de material criado (Reginaldo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 22:55:23.017
+219af607-d08d-4e5e-ac08-e0f2e0206cf7	CREATED	MATERIAL_REQUEST	59c16144-f0da-45da-8d8a-695cacf6e498	Pedido de material criado (Rodrigo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-03 22:56:25.461
 \.
 
 
@@ -719,6 +731,7 @@ e4dcd9f5-eb5b-4f1f-a7b4-580d8c3ab23d	2026-08-28	Avulsos	28	28	8	0	0	\N	3cb18ea4-
 COPY "public"."demandas" ("id", "fullName", "phone", "type", "tag", "neighborhood", "city", "fullAddress", "referencePoint", "description", "protocolNumber", "protocolDate", "responsibleAssessor", "status", "notes", "userId", "createdAt", "updatedAt") FROM stdin;
 c64f5cf5-2bfd-400d-8c18-70998cd6c17e	Lucas Lugon	5521969630991	Cadastro de Currículo	Belford Roxo	Belford Roxo	Belford Roxo	Rua Teresinha Fernandes, 114	\N	Precisa cadastrar currículo	\N	\N	\N	REGISTERED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-14 17:49:58.392	2026-08-14 17:49:58.392
 e2608c02-e213-4067-a11a-ea78166e5326	Rodrigo	21979376057	Poda de árvore	Guararapes/Cosme Velho	Cosme Velho	Rio de Janeiro	Rua João De Lerry 178	Quadra Cerra	Coqueiro precisa ser removido	RIO-33055082-2	2026-08-10	Gustavo	RESOLVED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-11 14:42:44.513	2026-08-28 16:12:27.328
+4a33ae22-9cea-4adb-bbcf-eb7ba0eaecff	Edna	5521964409593	Fiscalização de lava jato	Madureira	Vila Valqueire	Rio de Janeiro	Rua das cravinas 142	\N	Lava jato usando tintas com cheiro forte	\N	\N	\N	REGISTERED	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-03 19:31:16.911	2026-09-03 19:31:16.911
 \.
 
 
@@ -729,6 +742,7 @@ e2608c02-e213-4067-a11a-ea78166e5326	Rodrigo	21979376057	Poda de árvore	Guarara
 COPY "public"."demand_timeline_events" ("id", "demandId", "eventType", "fromStatus", "toStatus", "note", "userId", "createdAt") FROM stdin;
 4cdd6569-d0f3-43a3-9669-489dbba3222d	c64f5cf5-2bfd-400d-8c18-70998cd6c17e	CREATED	\N	REGISTERED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-14 17:49:58.444
 682424ef-c699-4013-9832-ba0dd92c7145	e2608c02-e213-4067-a11a-ea78166e5326	STATUS_CHANGED	IN_FOLLOW_UP	RESOLVED	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-08-28 16:12:27.399
+0f11840c-ebca-4bd5-94d0-9e422292ac1e	4a33ae22-9cea-4adb-bbcf-eb7ba0eaecff	CREATED	\N	REGISTERED	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-03 19:31:16.966
 \.
 
 
@@ -947,6 +961,17 @@ cc648bb2-3d7e-4e5b-a7eb-c482e4bd7cc3	Dolfin	21959580415	Insta	Botafogo	Nova Igua
 5840f3a6-0c22-46bd-bc48-8064a0ebe10d	Dora	21983436063	Insta	Madureira	Rio de Janeiro	Rua Maria José, 196	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-02 22:50:20.731	2026-09-02 22:50:20.731
 1f24095d-c17a-49c2-a289-c5d8f359e2f9	Alfredo	21975869429	Insta	São Cristóvão	Rio de Janeiro	Rua Bela, 1234	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-02 22:51:38.809	2026-09-02 22:51:38.809
 8152ebc6-6023-4c11-917e-870979b47274	Eduardo	21989609304	Insta	Andaraí	Rio de Janeiro	Rua Pontes Correa, 167/502	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-02 22:53:11.652	2026-09-02 22:53:11.652
+30d21566-7d0b-4bd3-961a-16861897c8d1	Suely Costa	5521983623006	Campo Grande	Campo Grande	Rio de Janeiro	R. Xique-Xique 175	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-03 17:03:10.427	2026-09-03 17:03:10.427
+e127b669-bfb9-48b9-be1d-6409ce7f27ef	Luiz Carlos	21972852971	Facebook	Mangueirinha - Rio Bonito	Rio de Janeiro	Avenida Theonas Martins Gomes 280 apto 101	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-03 17:31:00.707	2026-09-03 17:31:00.707
+b5efb47a-b0b6-46aa-b7eb-844d5fdc67e0	Neide	21980372196	Insta	Ipanema	Rio de Janeiro	Rua Barão da Torre, 168 - Apt. 204	XXX	{Adesivo,Panfleto}	\N	2	\N	\N	PENDING	Procurar Everaldo (porteiro);\nEntrega no local de trabalho.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 18:16:21.777	2026-09-03 18:16:21.777
+f67c659b-438a-4818-930c-041852dfae2e	Latif	21987115787	Facebook	Realengo	Rio de Janeiro	Estrada General Canrobert Pereira da Costa 759 casa 12	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-03 19:02:23.537	2026-09-03 19:02:23.537
+3290a747-166a-4512-a387-97637b98a0d6	Gabriel	21985431576	Insta	K11	Nova Iguaçu	Rua Capitão Edmundo Soares, 150 - Casa 02	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 19:32:26.903	2026-09-03 19:32:26.903
+3ae2393f-846b-415d-a478-b2efe20ed046	Saimon Verlingue	21967834700	Insta	São Francisco Xavier	Rio de Janeiro	Rua Licinio Cardoso 515 bloco 2 apto 1205	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-03 20:43:12.316	2026-09-03 20:43:12.316
+26c5f4e7-7f11-4ba1-a505-d27fcc7b0a37	Rogerio	21975195858	Insta	Marechal Hermes	Rio de Janeiro	Rua Américo Rocha, 669 - C4	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 20:52:28.033	2026-09-03 20:52:28.033
+16894a60-1e26-456a-b833-840800dcda34	Yuri	21964537934	Insta	XXX	Nilópolis	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 21:30:04.409	2026-09-03 21:30:04.409
+7ff423e9-c2db-4c22-8c26-23945e657a97	Eliana	21966616061	Insta	Cosmos	Rio de Janeiro	Est. de Paciência - Rua Paz, 1129	XXX	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 22:04:04.869	2026-09-03 22:04:04.869
+033c8308-1726-4865-921f-cc86c5bbbb93	Reginaldo	22988327236	Insta	XXX	Campos	Rua João Manoel de Faria, 88 - Bloco 9, Casa 11	Jóquei Clube	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 22:55:22.958	2026-09-03 22:55:22.958
+59c16144-f0da-45da-8d8a-695cacf6e498	Rodrigo	24998730828	Insta	Jaqueira	Piraí	Rua A, 83 - C1	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-03 22:56:25.441	2026-09-03 22:56:25.441
 \.
 
 
@@ -1090,6 +1115,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict m14fMRcuoOUuZ6oZ2dcM8tdAM2aIEgOYV9zMOjMNSkKt84I8tuOsHubphPyDvNe
+-- \unrestrict d5mS8JWKbUejr0rucAiZqEEqnbRmcyYZ0PMgrlFi9hxMmwZgb0k9AfY0We6kPWc
 
 RESET ALL;
