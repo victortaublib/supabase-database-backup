@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict OqbTNEdyvfr6qp4XMcRgM1d8i0XjEWOjY39zmIQG5TRe8QITCs3ftTuVbcK7bLV
+-- \restrict 7sVFi7cqH3ezAyMg6tE5sdKYOW6UDCgVloQxmMOjgiSdfXynN8dJcnZajxKI65M
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -699,6 +699,9 @@ df88bc0e-abd0-4e1e-9df1-08c46783edd2	CREATED	MATERIAL_REQUEST	81707d99-b0ca-4cd2
 027ee95a-2f3f-466e-90d3-6d2f4dd866f7	CREATED	MATERIAL_REQUEST	d5c4369a-6e6e-40a4-84fc-575ce5e84da4	Pedido de material criado (Alberto)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-05 18:08:49.137
 e28866b1-82a3-479a-b557-82f3a00cc511	CREATED	MATERIAL_REQUEST	3d6f1dcb-5da7-4cfb-9f35-5b562f386252	Pedido de material criado (Julio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-05 18:40:23.025
 a41fe3b0-6cbe-434f-8665-9a8927ca295b	CREATED	MATERIAL_REQUEST	df68b73a-2009-4e3b-8c5d-d0e828e7898a	Pedido de material criado (Sarah)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-05 18:51:37.114
+a81d3acb-af5d-4c27-a58c-d235ec1e39cc	CREATED	MATERIAL_REQUEST	7db0f45f-7719-4b24-adf5-5a8960f14373	Pedido de material criado (Marta)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-07 16:46:47.996
+ebb840a7-580d-4b8c-9a5c-217bab68ccf7	CREATED	MATERIAL_REQUEST	57f1b2f1-92ba-44b7-991e-7b11c3a7ea6a	Pedido de material criado (Grinalda)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-07 17:56:30.123
+00012ac5-8911-4019-b321-49e5350a9074	CREATED	MATERIAL_REQUEST	516be57f-171c-48d6-bed1-335bddf74842	Pedido de material criado (Thiago)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-07 18:35:33.076
 \.
 
 
@@ -1028,6 +1031,9 @@ e9ee7d9e-985c-4623-b8d2-801aeb5140c4	Eduardo	21989971366	Insta	XXX	Belford Roxo	
 d5c4369a-6e6e-40a4-84fc-575ce5e84da4	Alberto	5521995325729	Irajá	Irajá	Rio de Janeiro	R. São Canuto,  388 casa 1f	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-05 18:08:49.116	2026-09-05 18:08:49.116
 3d6f1dcb-5da7-4cfb-9f35-5b562f386252	Julio	21966685419	Insta	XXX	Duque de Caxias	Rua Fortaleza, 354	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	Entrega à domicílio. Quer bandeira também.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-05 18:40:22.991	2026-09-05 18:40:22.991
 df68b73a-2009-4e3b-8c5d-d0e828e7898a	Sarah	5521986629166	São Salvador	São Salvador	Rio	Rua Esteves Júnior n. 24. Apto 202 - Laranjeiras	\N	{Adesivo}	\N	1	\N	\N	PENDING	Só adesivos - Freixo	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-05 18:51:37.064	2026-09-05 18:51:37.064
+7db0f45f-7719-4b24-adf5-5a8960f14373	Marta	21996139342	Insta	Brás de Pina	Rio de Janeiro	Rua Augusto Comte, 50 - Apt. 201	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-07 16:46:47.917	2026-09-07 16:46:47.917
+57f1b2f1-92ba-44b7-991e-7b11c3a7ea6a	Grinalda	21978637979	Insta	Vista Alegre	São Gonçalo	Rua Zilda Silvares. LT 28; QD 289	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-07 17:56:30.039	2026-09-07 17:56:30.039
+516be57f-171c-48d6-bed1-335bddf74842	Thiago	21970520893	Insta	Dois Irmãos	Nova Iguaçu	Rua Angelina Viêira, 125	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-07 18:35:33.034	2026-09-07 18:35:33.034
 \.
 
 
@@ -1171,6 +1177,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict OqbTNEdyvfr6qp4XMcRgM1d8i0XjEWOjY39zmIQG5TRe8QITCs3ftTuVbcK7bLV
+-- \unrestrict 7sVFi7cqH3ezAyMg6tE5sdKYOW6UDCgVloQxmMOjgiSdfXynN8dJcnZajxKI65M
 
 RESET ALL;
