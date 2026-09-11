@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict b3iVgHYBXrcteIfTvtselS45xKqXZXlj3HSdHL6P5MM32A0tz23tZc80W4wHDDb
+-- \restrict U5EqacCr1yNkW6C9r4F8JeW5HbTKwiN0OtELEcgFOMZwpJeNEojE2nVDA7cWqAo
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -726,6 +726,12 @@ aa925aab-97ef-493e-afb4-271c15b14e1d	CREATED	MATERIAL_REQUEST	f6d31d10-c14d-4b40
 a600a0cf-05d6-48d5-9b5e-56a762e50b34	CREATED	MATERIAL_REQUEST	6fff779c-bd37-4d8f-8cff-8afde959aa1b	Pedido de material criado (Jocinea)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-09 20:53:48.562
 ec047069-62f6-4bc3-8d25-2aa5b8872973	CREATED	MATERIAL_REQUEST	73ef9f22-bc67-457b-ae17-2402be2fc2be	Pedido de material criado (André)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-09 20:56:01.63
 630719d2-b646-4e6e-bebb-9aed5bd8c6f3	CREATED	MATERIAL_REQUEST	c82d1702-ceb7-4e39-971c-7637b29e15ea	Pedido de material criado (Dora)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-09 21:30:20.786
+0cd0cc95-df59-42a7-af93-b9dd094c2bd8	CREATED	MATERIAL_REQUEST	05c8a852-f017-405e-84e4-0fe264eeb2b6	Pedido de material criado (Marcos Guedes)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-10 14:09:55.935
+844a939d-f7ec-4f9b-8e3c-af743d0fe273	CREATED	MATERIAL_REQUEST	0be4ff83-0d4e-44e9-8679-8d1e66aa6ff4	Pedido de material criado (Joel Alves)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-10 15:46:32.151
+53ddc7ca-49fa-4ead-a06c-3a1bb6310b4b	CREATED	MATERIAL_REQUEST	0677881f-1509-412e-aeff-1a9734456e2c	Pedido de material criado (Marise Horta)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-10 16:10:33.627
+ea6aa68f-fbf9-4477-b10a-e281b606882b	UPDATED	MATERIAL_REQUEST	0677881f-1509-412e-aeff-1a9734456e2c	Pedido de material atualizado (Marise Santos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-10 16:10:51.992
+66edde69-8c4b-4412-9141-212b77d2ca78	CREATED	MATERIAL_REQUEST	9c5c22d8-a900-4ceb-b5c1-94673706c940	Pedido de material criado (Valdevino)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-10 17:55:14.729
+55fc9ff3-aacc-497b-bdd7-5d81d01ea573	CREATED	MATERIAL_REQUEST	21f403dc-f8a0-499e-acde-890227caa7b1	Pedido de material criado (Francisco Carlos)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-10 19:37:08.741
 \.
 
 
@@ -1081,6 +1087,11 @@ f6d31d10-c14d-4b40-a21c-86d19676cf14	Fábio Ramos	21969898689	Insta	Cabuçu	Nova
 6fff779c-bd37-4d8f-8cff-8afde959aa1b	Jocinea	21984169304	Insta	Itaúna	São Gonçalo	Rua Arthur Bastos, 16.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-09 20:53:48.537	2026-09-09 20:53:48.537
 73ef9f22-bc67-457b-ae17-2402be2fc2be	André	21988757786	Insta	Irajá	Rio de Janeiro	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Vem retirar no comitê.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-09 20:56:01.606	2026-09-09 20:56:01.606
 c82d1702-ceb7-4e39-971c-7637b29e15ea	Dora	21992331038	Insta	Vidigal	Rio de Janeiro	Av. Presidente João Goulart, 887. Casa A.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (quer material: Lindbergh, Freixo, Jandira e Anielle).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-09 21:30:20.755	2026-09-09 21:30:20.755
+05c8a852-f017-405e-84e4-0fe264eeb2b6	Marcos Guedes	21976177716	Insta	xxx	Rio de Janeiro	xxx	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-10 14:09:55.883	2026-09-10 14:09:55.883
+0be4ff83-0d4e-44e9-8679-8d1e66aa6ff4	Joel Alves	21976843755	Copacabana	Copacabana	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Retirada	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-10 15:46:32.107	2026-09-10 15:46:32.107
+0677881f-1509-412e-aeff-1a9734456e2c	Marise Santos	21985499778	Tomaz Coelho	Tomaz Coelho	Rio de Janeiro	Rua Machado Sobrinho 224	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Fabiano Horta	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-10 16:10:33.594	2026-09-10 16:10:51.973
+9c5c22d8-a900-4ceb-b5c1-94673706c940	Valdevino	21977285144	Facebook	Santa Cruz	Rio de Janeiro	Rua Doutor Continentino 212 - Bairro Rolhas 01	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-10 17:55:14.667	2026-09-10 17:55:14.667
+21f403dc-f8a0-499e-acde-890227caa7b1	Francisco Carlos	22998248067	Macae	Macae	RJ	Rua César Parada Crespo, 170. Jardim Santo Antônio. Macaé.	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-10 19:37:08.702	2026-09-10 19:37:08.702
 \.
 
 
@@ -1224,6 +1235,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict b3iVgHYBXrcteIfTvtselS45xKqXZXlj3HSdHL6P5MM32A0tz23tZc80W4wHDDb
+-- \unrestrict U5EqacCr1yNkW6C9r4F8JeW5HbTKwiN0OtELEcgFOMZwpJeNEojE2nVDA7cWqAo
 
 RESET ALL;
