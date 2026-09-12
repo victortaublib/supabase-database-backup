@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict U5EqacCr1yNkW6C9r4F8JeW5HbTKwiN0OtELEcgFOMZwpJeNEojE2nVDA7cWqAo
+-- \restrict lvkfQBOrg5b1lGjqwMKjNtX74hortvK5vo19AlkZLLtH9mliX4ScUgX0WIIgzUY
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -732,6 +732,14 @@ ec047069-62f6-4bc3-8d25-2aa5b8872973	CREATED	MATERIAL_REQUEST	73ef9f22-bc67-457b
 ea6aa68f-fbf9-4477-b10a-e281b606882b	UPDATED	MATERIAL_REQUEST	0677881f-1509-412e-aeff-1a9734456e2c	Pedido de material atualizado (Marise Santos)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-10 16:10:51.992
 66edde69-8c4b-4412-9141-212b77d2ca78	CREATED	MATERIAL_REQUEST	9c5c22d8-a900-4ceb-b5c1-94673706c940	Pedido de material criado (Valdevino)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-10 17:55:14.729
 55fc9ff3-aacc-497b-bdd7-5d81d01ea573	CREATED	MATERIAL_REQUEST	21f403dc-f8a0-499e-acde-890227caa7b1	Pedido de material criado (Francisco Carlos)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-10 19:37:08.741
+3c4a0b7a-076b-4513-a093-78c22f79bffe	CREATED	MATERIAL_REQUEST	024618a1-52dc-4c83-8003-a5fe735ed117	Pedido de material criado (Zenilson Cruz)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-11 15:43:12.527
+7ffad5ed-480c-4f73-b8b2-f7d316149028	CREATED	MATERIAL_REQUEST	afd9ea20-4f10-4d49-aee0-ad887a05015f	Pedido de material criado (Luciana Costa)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-11 16:43:46.908
+d95725c6-a7ea-4d59-a2cd-587e1e85d57e	CREATED	MATERIAL_REQUEST	58df32ee-435e-4302-8d91-ff69076e8367	Pedido de material criado (Joanna Carolyna)	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	2026-09-11 18:14:27.532
+fc2de5bf-97a1-4bb8-85aa-4f2eddce4b04	CREATED	MATERIAL_REQUEST	c77664b0-85c5-4beb-8f6a-281da2aaf9d8	Pedido de material criado (Ronaldo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 18:40:55.231
+486f68c9-3118-43f2-a56e-6e29734a28e1	CREATED	MATERIAL_REQUEST	b40a7b3f-98ff-43fd-9951-7667c85bc2eb	Pedido de material criado (Bruno César)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 22:16:15.817
+ef2f3142-f59c-4421-9f99-d81a257c05e8	CREATED	MATERIAL_REQUEST	7aea3be2-f855-4c33-bb47-93d11a88ca73	Pedido de material criado (Gabriela)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 22:17:24.734
+fd246d97-19ba-4292-af5a-8054625e65d3	CREATED	MATERIAL_REQUEST	fbd7b84a-140d-4b40-b0a6-589fc766b154	Pedido de material criado (Célio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 22:18:48.941
+a91e9309-3cb4-482a-af5a-1a4b32e80364	CREATED	MATERIAL_REQUEST	61614f00-514e-432d-bbfd-7125a82fada9	Pedido de material criado (Michel)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 23:01:40.693
 \.
 
 
@@ -1092,6 +1100,14 @@ c82d1702-ceb7-4e39-971c-7637b29e15ea	Dora	21992331038	Insta	Vidigal	Rio de Janei
 0677881f-1509-412e-aeff-1a9734456e2c	Marise Santos	21985499778	Tomaz Coelho	Tomaz Coelho	Rio de Janeiro	Rua Machado Sobrinho 224	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Fabiano Horta	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-10 16:10:33.594	2026-09-10 16:10:51.973
 9c5c22d8-a900-4ceb-b5c1-94673706c940	Valdevino	21977285144	Facebook	Santa Cruz	Rio de Janeiro	Rua Doutor Continentino 212 - Bairro Rolhas 01	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-10 17:55:14.667	2026-09-10 17:55:14.667
 21f403dc-f8a0-499e-acde-890227caa7b1	Francisco Carlos	22998248067	Macae	Macae	RJ	Rua César Parada Crespo, 170. Jardim Santo Antônio. Macaé.	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-10 19:37:08.702	2026-09-10 19:37:08.702
+024618a1-52dc-4c83-8003-a5fe735ed117	Zenilson Cruz	21994766670	Insta	Ilha do Governador	Rio de Janeiro	xxx	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-11 15:43:12.468	2026-09-11 15:43:12.468
+afd9ea20-4f10-4d49-aee0-ad887a05015f	Luciana Costa	21970149022	Insta	Ramos	Rio de Janeiro	Avenida dos Campeões 603 bloco 6 apto 301	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-11 16:43:46.866	2026-09-11 16:43:46.866
+58df32ee-435e-4302-8d91-ff69076e8367	Joanna Carolyna	21992427539	Insta	Acari	Rio de Janeiro	Rua Olaria 36	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-11 18:14:27.476	2026-09-11 18:14:27.476
+c77664b0-85c5-4beb-8f6a-281da2aaf9d8	Ronaldo	21981920979	Insta	Cachambi	Rio de Janeiro	Rua Honório, 1850, bloco 1 - Apt. 501	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 18:40:55.174	2026-09-11 18:40:55.174
+b40a7b3f-98ff-43fd-9951-7667c85bc2eb	Bruno César	21981760944	Insta	Realengo	Rio de Janeiro	Rua Marechal Modestino, 529 - Casa 05.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 22:16:15.785	2026-09-11 22:16:15.785
+7aea3be2-f855-4c33-bb47-93d11a88ca73	Gabriela	21999406413	Insta	Campo Grande	Rio de Janeiro	Rua Cordilheira, 577	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 22:17:24.713	2026-09-11 22:17:24.713
+fbd7b84a-140d-4b40-b0a6-589fc766b154	Célio	21988796815	Insta	Ilha do Govenador	Rio de Janeiro	Rua Santo Antônio Ambrósio de Senna, 115.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 22:18:48.921	2026-09-11 22:18:48.921
+61614f00-514e-432d-bbfd-7125a82fada9	Michel	22920050899	Insta	Jacaré	Rio de Janeiro	Rua Leão, 24B	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 23:01:40.655	2026-09-11 23:01:40.655
 \.
 
 
@@ -1235,6 +1251,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict U5EqacCr1yNkW6C9r4F8JeW5HbTKwiN0OtELEcgFOMZwpJeNEojE2nVDA7cWqAo
+-- \unrestrict lvkfQBOrg5b1lGjqwMKjNtX74hortvK5vo19AlkZLLtH9mliX4ScUgX0WIIgzUY
 
 RESET ALL;
