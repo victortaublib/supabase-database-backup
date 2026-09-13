@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict lvkfQBOrg5b1lGjqwMKjNtX74hortvK5vo19AlkZLLtH9mliX4ScUgX0WIIgzUY
+-- \restrict PG9c7L3fwOCqeZrMASYyrbLNglezSkVvct4S9RahDJ4ZGhSIf67ytBZO66TXeYl
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -740,6 +740,13 @@ fc2de5bf-97a1-4bb8-85aa-4f2eddce4b04	CREATED	MATERIAL_REQUEST	c77664b0-85c5-4beb
 ef2f3142-f59c-4421-9f99-d81a257c05e8	CREATED	MATERIAL_REQUEST	7aea3be2-f855-4c33-bb47-93d11a88ca73	Pedido de material criado (Gabriela)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 22:17:24.734
 fd246d97-19ba-4292-af5a-8054625e65d3	CREATED	MATERIAL_REQUEST	fbd7b84a-140d-4b40-b0a6-589fc766b154	Pedido de material criado (Célio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 22:18:48.941
 a91e9309-3cb4-482a-af5a-1a4b32e80364	CREATED	MATERIAL_REQUEST	61614f00-514e-432d-bbfd-7125a82fada9	Pedido de material criado (Michel)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-11 23:01:40.693
+bdbf5afa-9eba-4581-a514-25bb6cabfe69	CREATED	MATERIAL_REQUEST	808c859e-48a9-4fee-b9db-dfea77a5f599	Pedido de material criado (Cris)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 14:41:15.883
+336c3a3e-72f1-4f5c-aa8e-d8163b4b3dc1	CREATED	MATERIAL_REQUEST	5afad681-4099-4aca-b500-213619728d8d	Pedido de material criado (Doranei)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 16:59:28.316
+00d23493-917f-42b9-8bfb-cdc892ca9384	CREATED	MATERIAL_REQUEST	49e793bf-6e7c-4026-9da1-43d755a7b04f	Pedido de material criado (Vivian)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 17:00:56.93
+bd053bde-d82c-41f5-95d1-adcbbe233a7f	CREATED	MATERIAL_REQUEST	a0a2e42a-66cc-4325-b52e-b38b8feb28bd	Pedido de material criado (Jorge)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 17:02:27.777
+8294f47e-dab9-41d0-bd65-4e88a7bb442c	CREATED	MATERIAL_REQUEST	baaaa24a-b94e-4510-b85e-b4c8df07bff5	Pedido de material criado (Denise)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 17:04:06.397
+efab3ab3-2d52-4660-9b87-97946fa918fb	CREATED	MATERIAL_REQUEST	e0ab0bb2-f16d-48c2-841e-c675df44054e	Pedido de material criado (Renato)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 17:07:20.028
+fca7e25f-06b2-4bf4-bf42-cb6bd37159e9	DELETED	MATERIAL_REQUEST	49e793bf-6e7c-4026-9da1-43d755a7b04f	Pedido de material excluído (Vivian)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-12 18:53:09.871
 \.
 
 
@@ -1108,6 +1115,11 @@ b40a7b3f-98ff-43fd-9951-7667c85bc2eb	Bruno César	21981760944	Insta	Realengo	Rio
 7aea3be2-f855-4c33-bb47-93d11a88ca73	Gabriela	21999406413	Insta	Campo Grande	Rio de Janeiro	Rua Cordilheira, 577	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 22:17:24.713	2026-09-11 22:17:24.713
 fbd7b84a-140d-4b40-b0a6-589fc766b154	Célio	21988796815	Insta	Ilha do Govenador	Rio de Janeiro	Rua Santo Antônio Ambrósio de Senna, 115.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 22:18:48.921	2026-09-11 22:18:48.921
 61614f00-514e-432d-bbfd-7125a82fada9	Michel	22920050899	Insta	Jacaré	Rio de Janeiro	Rua Leão, 24B	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 23:01:40.655	2026-09-11 23:01:40.655
+808c859e-48a9-4fee-b9db-dfea77a5f599	Cris	22998803234	Insta	Novos Cavaleiros	Macaé	Rua Manoel Francisco Nunes, 48.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 14:41:15.841	2026-09-12 14:41:15.841
+5afad681-4099-4aca-b500-213619728d8d	Doranei	21975722907	Insta	Sarapuí	Duque de Caxias	Rua Paranaparema, 30	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 16:59:28.273	2026-09-12 16:59:28.273
+a0a2e42a-66cc-4325-b52e-b38b8feb28bd	Jorge	24992680945	Insta	Vista Alegre	Volta Redonda	Rua Primavera, 111 - Lot. Airuoca.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 17:02:27.757	2026-09-12 17:02:27.757
+baaaa24a-b94e-4510-b85e-b4c8df07bff5	Denise	21987070296	Insta	Andaraí	Rio de Janeiro	Rua Barão de Mesquita, 891 - Apt. 1905	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 17:04:06.367	2026-09-12 17:04:06.367
+e0ab0bb2-f16d-48c2-841e-c675df44054e	Renato	21981475605	Insta	Ipiranga	Barra do Piraí	Rua dos Ipês, 1403.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 17:07:19.99	2026-09-12 17:07:19.99
 \.
 
 
@@ -1251,6 +1263,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict lvkfQBOrg5b1lGjqwMKjNtX74hortvK5vo19AlkZLLtH9mliX4ScUgX0WIIgzUY
+-- \unrestrict PG9c7L3fwOCqeZrMASYyrbLNglezSkVvct4S9RahDJ4ZGhSIf67ytBZO66TXeYl
 
 RESET ALL;
