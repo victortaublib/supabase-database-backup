@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict NF994HtdHyNAGy1HMOiogmoRDV3QKB2PiR8pgZNQMbEShKYoQhwyBuXkbIfO4YW
+-- \restrict G84uElEYLtUMgvn7iVIkUvLSFMoMmaS3YXavX4Iya442xIhUNTbRYSK673eBPB5
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -110,6 +110,22 @@ COPY "auth"."mfa_challenges" ("id", "factor_id", "created_at", "verified_at", "i
 
 
 --
+-- Data for Name: mfa_recovery_code_sets; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."mfa_recovery_code_sets" ("id", "user_id", "mfa_factor_id", "failed_verification_count", "verification_locked_until", "created_at", "updated_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: mfa_recovery_codes; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."mfa_recovery_codes" ("id", "mfa_recovery_code_set_id", "code_hash", "consumed_at", "created_at") FROM stdin;
+\.
+
+
+--
 -- Data for Name: oauth_authorizations; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
@@ -137,7 +153,7 @@ COPY "auth"."oauth_consents" ("id", "user_id", "client_id", "scopes", "granted_a
 -- Data for Name: one_time_tokens; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."one_time_tokens" ("id", "user_id", "token_type", "token_hash", "relates_to", "created_at", "updated_at") FROM stdin;
+COPY "auth"."one_time_tokens" ("id", "user_id", "token_type", "token_hash", "relates_to", "created_at", "updated_at", "expires_at") FROM stdin;
 \.
 
 
@@ -170,6 +186,22 @@ COPY "auth"."saml_providers" ("id", "sso_provider_id", "entity_id", "metadata_xm
 --
 
 COPY "auth"."saml_relay_states" ("id", "sso_provider_id", "request_id", "for_email", "redirect_to", "created_at", "updated_at", "flow_state_id") FROM stdin;
+\.
+
+
+--
+-- Data for Name: scim_tokens; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."scim_tokens" ("id", "sso_provider_id", "token_hash", "prefix", "created_at", "expires_at", "revoked_at", "last_used_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: scim_users; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
+--
+
+COPY "auth"."scim_users" ("id", "sso_provider_id", "user_id", "resource", "created_at", "updated_at", "deleted_at") FROM stdin;
 \.
 
 
@@ -755,6 +787,13 @@ c038d5dc-62b9-4972-8a2e-0dff9cc1df62	CREATED	MATERIAL_REQUEST	b5f95e33-7b03-4986
 6ce7b26f-d489-4da9-a67d-5aadf5b1ffc2	CREATED	MATERIAL_REQUEST	c22f727d-0c23-4cfd-b574-319159930fff	Pedido de material criado (Luciano)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-14 17:59:49.689
 9e45e078-0213-44c3-abd3-c4880f6d4db8	CREATED	MATERIAL_REQUEST	9b46a6d0-af0a-4627-bffe-0d8e42ebbdc0	Pedido de material criado (Valéria)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-14 18:54:04.704
 2f9e686d-4800-41a9-a9e2-b2d257f7204d	CREATED	MATERIAL_REQUEST	76cf6198-81da-44fa-afd3-f100ea1a36ea	Pedido de material criado (Marilene Francisca)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-14 19:46:57.828
+5dddfe1d-1c3c-469d-b8f4-fb5f7836a128	CREATED	MATERIAL_REQUEST	09b2f83b-fce0-43ff-86dd-8138322b56db	Pedido de material criado (Gil Alcon)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-15 20:46:16.611
+097e01ab-e8de-43b2-baf2-21e680678bf7	CREATED	MATERIAL_REQUEST	f2e58d63-2cfc-44ac-ada3-8b5fc6b350d3	Pedido de material criado (Gilberto Meres)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-15 22:15:54.852
+74410678-cb8b-4496-8ca6-b2437164ceac	UPDATED	MATERIAL_REQUEST	f2e58d63-2cfc-44ac-ada3-8b5fc6b350d3	Pedido de material atualizado (Gilberto Meres)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-15 22:24:17.728
+0302e65f-d75b-43f4-9b2a-ca8069928e6f	CREATED	MATERIAL_REQUEST	da5928d9-9510-45fd-9764-0949966f6075	Pedido de material criado (Gabriel)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-15 22:51:56.43
+7662626f-f9c7-483e-92c0-f4a02c8e39ca	CREATED	MATERIAL_REQUEST	71d264d9-a016-45c3-b849-6ec7140101f5	Pedido de material criado (Luiz Frederico)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-15 22:53:35.259
+2aebc1d1-bff3-4352-8b07-e68a03db1c05	CREATED	MATERIAL_REQUEST	335f5f4e-6993-46c0-91d9-433a7bc32860	Pedido de material criado (Aline)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-15 22:54:40.395
+4ec18ba8-5106-467c-91c3-be3dd1df4a32	CREATED	MATERIAL_REQUEST	5f4f83ca-326a-4b4e-94a0-678c51becfbc	Pedido de material criado (João)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-15 22:56:00.624
 \.
 
 
@@ -1136,6 +1175,12 @@ b5f95e33-7b03-4986-8e8a-62b86525b646	Márcio Albuquerque	24993129270	Angra dos R
 c22f727d-0c23-4cfd-b574-319159930fff	Luciano	21975492566	Penha	Penha	RJ	Rua Irmão Paula, nº 6	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-14 17:59:49.635	2026-09-14 17:59:49.635
 9b46a6d0-af0a-4627-bffe-0d8e42ebbdc0	Valéria	21966051825	Insta	Imbarie	Rio de Janeiro	Rua Uruana, lote 09 - quadra 48	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-14 18:54:04.676	2026-09-14 18:54:04.676
 76cf6198-81da-44fa-afd3-f100ea1a36ea	Marilene Francisca	22981335854	Ingá	Ingá	Niterói	Rua São Sebastião 65	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-14 19:46:57.77	2026-09-14 19:46:57.77
+09b2f83b-fce0-43ff-86dd-8138322b56db	Gil Alcon	21971745429	Realengo	Realengo	RJ	Rua Aritiba, nº 558, Casa 01	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Bandeira do Leonel e Material da Bené	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-15 20:46:16.575	2026-09-15 20:46:16.575
+f2e58d63-2cfc-44ac-ada3-8b5fc6b350d3	Gilberto Meres	21997089006	Vila Kosmos	Vila Kosmos	RJ	Rua Angai, nº 115	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-15 22:15:54.798	2026-09-15 22:24:17.694
+da5928d9-9510-45fd-9764-0949966f6075	Gabriel	219754945791	Insta	Chapero	Itaguaí	Rua Pastor Antônio Antunes Rocha, 182	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-15 22:51:56.385	2026-09-15 22:51:56.385
+71d264d9-a016-45c3-b849-6ec7140101f5	Luiz Frederico	21985211977	Insta	Parque Lafaiete	Duque de Caxias	Av. Hnerique Valadares, 748	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-15 22:53:35.218	2026-09-15 22:53:35.218
+335f5f4e-6993-46c0-91d9-433a7bc32860	Aline	21998732936	Insta	Guarus	Campos dos Goytacazes	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-15 22:54:40.374	2026-09-15 22:54:40.374
+5f4f83ca-326a-4b4e-94a0-678c51becfbc	João	21975586594	Insta	Figueira	Duque de Caxias	Estrada Velha do Pilar, 2290	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-15 22:56:00.597	2026-09-15 22:56:00.597
 \.
 
 
@@ -1279,6 +1324,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict NF994HtdHyNAGy1HMOiogmoRDV3QKB2PiR8pgZNQMbEShKYoQhwyBuXkbIfO4YW
+-- \unrestrict G84uElEYLtUMgvn7iVIkUvLSFMoMmaS3YXavX4Iya442xIhUNTbRYSK673eBPB5
 
 RESET ALL;
