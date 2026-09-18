@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict fwvW8sKgFAggdKGu6SJPukno59MDodclNQRG69NcddSGG7wDXq2deM8df00n0zh
+-- \restrict VSKCsFPM20dzzLybuAMESi9w3nwWbHQ0cWysoxPy2kyGsI1tJVyAGgMF3atozFy
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -801,6 +801,13 @@ dee54043-d9ea-4e25-9b38-1bf2dac5d680	CREATED	MATERIAL_REQUEST	755058e1-efd6-490a
 71c91178-bc85-42b2-922a-086203c72dfc	CREATED	MATERIAL_REQUEST	cc3bf3f8-1b07-4862-b7ac-ed081661f5ca	Pedido de material criado (Emerson)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-16 22:50:15.71
 a00ea374-b86c-4fa2-8157-a204dc2869a1	CREATED	MATERIAL_REQUEST	da28975e-6d87-47d9-b7f0-9528d73b1f06	Pedido de material criado (Leonardo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-16 22:51:16.699
 b5c5bc78-5459-43eb-a3f8-0d5e0ed13da6	CREATED	MATERIAL_REQUEST	6c8cbc4d-fc0f-4472-963b-66c678ce28a7	Pedido de material criado (Nádia)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-16 22:52:17.164
+24165014-81d7-4f69-a1c6-2bc12ec893cd	CREATED	MATERIAL_REQUEST	5b711c76-0e52-471c-8037-8ed894d0e548	Pedido de material criado (Wendell Anibal)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-17 15:07:40.102
+23336a81-8404-4950-8c31-b6e19431a2f0	CREATED	MATERIAL_REQUEST	bf4bdca4-aaf2-4667-aac4-03b7bda6c2cc	Pedido de material criado (Francisco)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-17 17:29:32.013
+c3a2c674-b80a-42db-a629-0467b918931b	CREATED	MATERIAL_REQUEST	013d367f-2a93-4045-b2c0-92b75125787f	Pedido de material criado (Ana Lucia)	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	2026-09-17 18:24:10.93
+47f5f62c-9093-41ea-a9d1-d4b9c51e7edc	CREATED	MATERIAL_REQUEST	b16ba860-0365-4123-9840-9964358a7675	Pedido de material criado (Leila)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-17 19:07:05.899
+1fa20132-f248-4fdc-be43-5627cd58e963	CREATED	MATERIAL_REQUEST	e4f09d91-81a6-4a33-a39a-1a3059675ff7	Pedido de material criado (Nazareth Moreira)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-17 21:41:08.317
+3fc2a989-a77c-4a79-8f10-26a1337d2d26	CREATED	MATERIAL_REQUEST	abb213ff-aae0-4a8f-a94d-179aa32fdbe2	Pedido de material criado (Tiago Souza)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-17 22:57:46.763
+bc3b124c-adac-4eb2-ba9f-5145777c0081	CREATED	MATERIAL_REQUEST	0f03c820-9574-47bb-8f3d-dc06a7f5adf0	Pedido de material criado (José Célio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-17 22:58:59.84
 \.
 
 
@@ -1195,6 +1202,13 @@ da5928d9-9510-45fd-9764-0949966f6075	Gabriel	219754945791	Insta	Chapero	Itaguaí
 cc3bf3f8-1b07-4862-b7ac-ed081661f5ca	Emerson	21998918868	Insta	Vila Rica	Itaboraí	Rua Turqueza, 66	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-16 22:50:15.689	2026-09-16 22:50:15.689
 da28975e-6d87-47d9-b7f0-9528d73b1f06	Leonardo	21968099371	Insta	São Pedro	Teresópolis	Rua Pache de Faria, 20.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-16 22:51:16.68	2026-09-16 22:51:16.68
 6c8cbc4d-fc0f-4472-963b-66c678ce28a7	Nádia	21999339723	Insta	Estácio	Rio de Janeiro	XXX	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-16 22:52:17.121	2026-09-16 22:52:17.121
+5b711c76-0e52-471c-8037-8ed894d0e548	Wendell Anibal	5521920375507	Engenho Novo	Engenho Novo	Rio de Janeiro	Rua Martins Lage 181	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-17 15:07:40.039	2026-09-17 15:07:40.039
+bf4bdca4-aaf2-4667-aac4-03b7bda6c2cc	Francisco	22992528224	Buzios	Buzios	Buzios	Rua Justiniano 25	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-17 17:29:31.971	2026-09-17 17:29:31.971
+013d367f-2a93-4045-b2c0-92b75125787f	Ana Lucia	21964624861	Vila da Penha	Vila da Penha	Rio de Janeiro	Rua General Carvalho 1276	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-17 18:24:10.896	2026-09-17 18:24:10.896
+b16ba860-0365-4123-9840-9964358a7675	Leila	21966863228	Insta	Boa Esperança	Seropédica	Rua Walcreuzo Guimarães, 409	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-17 19:07:05.864	2026-09-17 19:07:05.864
+e4f09d91-81a6-4a33-a39a-1a3059675ff7	Nazareth Moreira	22998476842	Insta	Reginópolis	Silva Jardim	Rua Vinte Oito de Abril, 3.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-17 21:41:08.234	2026-09-17 21:41:08.234
+abb213ff-aae0-4a8f-a94d-179aa32fdbe2	Tiago Souza	22981778077	Insta	Cidade Nova	Rio de Janeiro	Rua Wani Xavier do Amaral, 245	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-17 22:57:46.726	2026-09-17 22:57:46.726
+0f03c820-9574-47bb-8f3d-dc06a7f5adf0	José Célio	24988456472	Insta	Monte Cristo	Barra Mansa	Rua José Bernardo, 93.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-17 22:58:59.804	2026-09-17 22:58:59.804
 \.
 
 
@@ -1338,6 +1352,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict fwvW8sKgFAggdKGu6SJPukno59MDodclNQRG69NcddSGG7wDXq2deM8df00n0zh
+-- \unrestrict VSKCsFPM20dzzLybuAMESi9w3nwWbHQ0cWysoxPy2kyGsI1tJVyAGgMF3atozFy
 
 RESET ALL;
