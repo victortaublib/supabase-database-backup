@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict raoreJzUENZFnyBY7vH0Ph2yNT3IeTqi2hOBwW65XJ6Vhl30WCUH7gILCoV85Pl
+-- \restrict bS03TMOuNAGPTvVyoph0hYBvy6SII4Kc6yb9B9KNfGWMTEYYj8O8QbvP8vv531Y
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -845,6 +845,13 @@ b7504c11-2b7b-422b-8139-3b1dd7745bbf	CREATED	MATERIAL_REQUEST	3064d437-00e2-496a
 f1e69572-b30b-4bf1-a089-12cb98716852	UPDATED	MATERIAL_REQUEST	3e18f47d-9eca-4a67-8a99-6a1011f452bc	Pedido de material atualizado (Gabriel Conte)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-21 15:39:51.613
 d52b3cb0-ec7f-4051-af59-ec92a8c89b01	CREATED	MATERIAL_REQUEST	81cbaee8-a927-4257-8c20-ffd36876f986	Pedido de material criado (Cezar Montana)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-21 16:51:06.373
 e4e3fec1-4bcf-44e8-abca-30d5388217be	UPDATED	MATERIAL_REQUEST	bf4bdca4-aaf2-4667-aac4-03b7bda6c2cc	Pedido de material atualizado (Francisco)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-21 19:25:47.253
+a9e144f2-d1f7-4cf3-bc9b-2973bfa9a610	CREATED	MATERIAL_REQUEST	b9e87c50-d650-40a6-8dd3-8df6ae8efa43	Pedido de material criado (Nilson)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-22 20:04:11.235
+ba467560-f398-4114-8136-93622240df33	CREATED	MATERIAL_REQUEST	ce44d844-4d12-4d25-9663-6f3a6d8e458a	Pedido de material criado (Diego)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 20:18:03.752
+f2643202-a181-41c7-9499-d0d8dfa2bed9	CREATED	MATERIAL_REQUEST	ce81296e-ee5a-4941-9fa0-49f0c5c81d4f	Pedido de material criado (Luiz Cavalcante)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 21:34:14.613
+92a1080d-f013-4cfa-a8cb-b1a5dec1f02f	CREATED	MATERIAL_REQUEST	f4501dec-1bbd-400e-8659-2d1938b02b5f	Pedido de material criado (Angela)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 22:00:22.988
+e455c1db-f509-4b1d-8273-a0ce85bbe25f	CREATED	MATERIAL_REQUEST	eb857915-db14-46e3-9fdb-7da16e70a655	Pedido de material criado (Márcio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 22:58:45.578
+7fec4161-fb84-4560-baac-d307c95f7de3	CREATED	MATERIAL_REQUEST	e0b53963-e3ca-4dc6-9bb0-ec6e53c4ff9a	Pedido de material criado (Luis Carlos)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 23:50:49.857
+5703abeb-db94-4f68-8018-74952b430d4c	CREATED	MATERIAL_REQUEST	8ab9e68e-f081-47c2-9988-486f587d37fb	Pedido de material criado (Renato da Silva)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 23:55:01.222
 \.
 
 
@@ -1257,6 +1264,13 @@ ad42eae0-1404-4376-87cc-2723d02e9471	Fernando Almeida	21990950924	Nova Friburgo	
 a91453e3-872f-4072-846d-b55c4d5b8719	Paulo Roberto	21968672284	Botafogo	Botafogo	Rio de Janeiro	Rua Voluntários da Pátria, 98/307	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-18 22:51:40.93	2026-09-18 22:51:40.93
 6d648d33-9c02-4817-b17e-e936e7db5e22	Beatriz	21974688629	Insta	Oswaldo Cruz	Rio de Janeiro	Rua Henrique Braga, 440	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-18 22:54:59.89	2026-09-18 22:54:59.89
 81cbaee8-a927-4257-8c20-ffd36876f986	Cezar Montana	17864451571	Curicica	Curicica	RJ	Rua Abadiana, 70 — Apto. 301	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-21 16:51:06.294	2026-09-21 16:51:06.294
+b9e87c50-d650-40a6-8dd3-8df6ae8efa43	Nilson	21989042140	Duque De Caxias	Urassaí	Duque de Caxias	Rua capitão frei Orlando, lote 24 Quadra 22 Vila Urussai - Duque de Caxias	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-22 20:04:11.195	2026-09-22 20:04:11.195
+ce44d844-4d12-4d25-9663-6f3a6d8e458a	Diego	21987225656	Insta	Rocinha	Rio de Janeiro	Estrada da Gávea, 385	Bazar do joãozinho	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (contato letícia)	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 20:18:03.718	2026-09-22 20:18:03.718
+ce81296e-ee5a-4941-9fa0-49f0c5c81d4f	Luiz Cavalcante	21998239513	Insta	Barra Olímpica	Rio de Janeiro	Rua Aroazes, 870, bloco 1 - Apt. 104	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material da Benedita).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 21:34:14.535	2026-09-22 21:34:14.535
+f4501dec-1bbd-400e-8659-2d1938b02b5f	Angela	21967769666	Insta	Guaratiba	Rio de Janeiro	rua jurema cabral 103	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	entrega à domicílio (entrega leticia)	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 22:00:22.948	2026-09-22 22:00:22.948
+eb857915-db14-46e3-9fdb-7da16e70a655	Márcio	21995216698	Insta	Santa Cruz	Rio de Janeiro	Estrada Aterrado do Leme, 1360. Bloco 15 - Apt, 202.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 22:58:45.538	2026-09-22 22:58:45.538
+e0b53963-e3ca-4dc6-9bb0-ec6e53c4ff9a	Luis Carlos	21991360201	Insta	Praça Seca	Rio de Janeiro	Rua Praça Seca, 26 - Apt, 201	Ao lado do Colégio Honduras	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 23:50:49.817	2026-09-22 23:50:49.817
+8ab9e68e-f081-47c2-9988-486f587d37fb	Renato da Silva	21970889494	Insta	Realengo	Rio de Janeiro	Rua Juscelino, 10.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 23:55:01.197	2026-09-22 23:55:01.197
 \.
 
 
@@ -1400,6 +1414,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict raoreJzUENZFnyBY7vH0Ph2yNT3IeTqi2hOBwW65XJ6Vhl30WCUH7gILCoV85Pl
+-- \unrestrict bS03TMOuNAGPTvVyoph0hYBvy6SII4Kc6yb9B9KNfGWMTEYYj8O8QbvP8vv531Y
 
 RESET ALL;
