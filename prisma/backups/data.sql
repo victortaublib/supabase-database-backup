@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict bS03TMOuNAGPTvVyoph0hYBvy6SII4Kc6yb9B9KNfGWMTEYYj8O8QbvP8vv531Y
+-- \restrict TVCY1QEYbhKt0Rb4pZz1V5L4FkNuaap2VU0FpuTsFGJmqGPTgPXQ6mnIX2YiseP
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -852,6 +852,13 @@ f2643202-a181-41c7-9499-d0d8dfa2bed9	CREATED	MATERIAL_REQUEST	ce81296e-ee5a-4941
 e455c1db-f509-4b1d-8273-a0ce85bbe25f	CREATED	MATERIAL_REQUEST	eb857915-db14-46e3-9fdb-7da16e70a655	Pedido de material criado (Márcio)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 22:58:45.578
 7fec4161-fb84-4560-baac-d307c95f7de3	CREATED	MATERIAL_REQUEST	e0b53963-e3ca-4dc6-9bb0-ec6e53c4ff9a	Pedido de material criado (Luis Carlos)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 23:50:49.857
 5703abeb-db94-4f68-8018-74952b430d4c	CREATED	MATERIAL_REQUEST	8ab9e68e-f081-47c2-9988-486f587d37fb	Pedido de material criado (Renato da Silva)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-22 23:55:01.222
+9385797e-016d-4642-b300-88e280322a01	UPDATED	MATERIAL_REQUEST	21f403dc-f8a0-499e-acde-890227caa7b1	Pedido de material atualizado (Francisco Carlos)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-23 13:03:31.296
+d29802eb-c989-4826-bf87-9e4f5aa34d0b	UPDATED	MATERIAL_REQUEST	3064d437-00e2-496a-a6ab-1720e24d5d6e	Pedido de material atualizado (Flávio Luz)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-23 13:12:49.816
+ebbc2f04-6b77-4593-9171-04598783b9ce	CREATED	MATERIAL_REQUEST	653763ab-182a-41bd-9fa4-3d82ae171f43	Pedido de material criado (Juciara)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-23 21:37:04.082
+e20bd9ef-4732-43be-bb58-8b07874523b9	CREATED	MATERIAL_REQUEST	bfec7b1f-fe7e-40cd-bfd2-3001c8b0eeaf	Pedido de material criado (Paulo Souza)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-23 21:38:27.06
+156b3b85-44ad-4822-9ce2-149222fc0973	CREATED	MATERIAL_REQUEST	8e2e8a94-5afb-48d0-a8f9-121e86bebfe3	Pedido de material criado (João Carlos)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-23 22:06:54.832
+f0037177-d500-4797-ae1e-e4f2de50fe7f	CREATED	MATERIAL_REQUEST	60539d0d-540b-4a80-a2da-f4522e930c96	Pedido de material criado (Pedro)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-23 23:31:27.313
+1dc0b130-4903-4090-ac42-a00a76034952	UPDATED	MATERIAL_REQUEST	653763ab-182a-41bd-9fa4-3d82ae171f43	Pedido de material atualizado (Juciara)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-23 23:32:18.543
 \.
 
 
@@ -1209,7 +1216,6 @@ c82d1702-ceb7-4e39-971c-7637b29e15ea	Dora	21992331038	Insta	Vidigal	Rio de Janei
 0be4ff83-0d4e-44e9-8679-8d1e66aa6ff4	Joel Alves	21976843755	Copacabana	Copacabana	Rio de Janeiro	---	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Retirada	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-10 15:46:32.107	2026-09-10 15:46:32.107
 0677881f-1509-412e-aeff-1a9734456e2c	Marise Santos	21985499778	Tomaz Coelho	Tomaz Coelho	Rio de Janeiro	Rua Machado Sobrinho 224	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Fabiano Horta	3cb18ea4-04f1-42d2-a0ad-9ec0264a848e	\N	2026-09-10 16:10:33.594	2026-09-10 16:10:51.973
 9c5c22d8-a900-4ceb-b5c1-94673706c940	Valdevino	21977285144	Facebook	Santa Cruz	Rio de Janeiro	Rua Doutor Continentino 212 - Bairro Rolhas 01	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-10 17:55:14.667	2026-09-10 17:55:14.667
-21f403dc-f8a0-499e-acde-890227caa7b1	Francisco Carlos	22998248067	Macae	Macae	RJ	Rua César Parada Crespo, 170. Jardim Santo Antônio. Macaé.	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-10 19:37:08.702	2026-09-10 19:37:08.702
 024618a1-52dc-4c83-8003-a5fe735ed117	Zenilson Cruz	21994766670	Insta	Ilha do Governador	Rio de Janeiro	xxx	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-11 15:43:12.468	2026-09-11 15:43:12.468
 afd9ea20-4f10-4d49-aee0-ad887a05015f	Luciana Costa	21970149022	Insta	Ramos	Rio de Janeiro	Avenida dos Campeões 603 bloco 6 apto 301	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-11 16:43:46.866	2026-09-11 16:43:46.866
 58df32ee-435e-4302-8d91-ff69076e8367	Joanna Carolyna	21992427539	Insta	Acari	Rio de Janeiro	Rua Olaria 36	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-11 18:14:27.476	2026-09-11 18:14:27.476
@@ -1223,6 +1229,7 @@ a0a2e42a-66cc-4325-b52e-b38b8feb28bd	Jorge	24992680945	Insta	Vista Alegre	Volta 
 baaaa24a-b94e-4510-b85e-b4c8df07bff5	Denise	21987070296	Insta	Andaraí	Rio de Janeiro	Rua Barão de Mesquita, 891 - Apt. 1905	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 17:04:06.367	2026-09-12 17:04:06.367
 61614f00-514e-432d-bbfd-7125a82fada9	Michel	22920050899	Insta	Jacaré	Rio de Janeiro	Rua Leão, 24B	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	DELIVERED	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-11 23:01:40.655	2026-09-18 16:47:17.553
 1419b018-81c2-46a1-9622-404e12b0dbcc	Kátia	21974528456	Insta	Jaconé	Saquarema	Rua 103, 14	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-08 22:49:44.492	2026-09-18 16:47:58.302
+21f403dc-f8a0-499e-acde-890227caa7b1	Francisco Carlos	22998248067	Macae	Macae	RJ	Rua César Parada Crespo, 170. Jardim Santo Antônio. Macaé.	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-10 19:37:08.702	2026-09-23 13:03:31.255
 e0ab0bb2-f16d-48c2-841e-c675df44054e	Renato	21981475605	Insta	Ipiranga	Barra do Piraí	Rua dos Ipês, 1403.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega á domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-12 17:07:19.99	2026-09-12 17:07:19.99
 1e0cb2ff-9c21-4998-8c9f-b474d29c007e	Samara	21994484996	Insta	Pavuna	Rio de Janeiro	General Mariante 88/301 Parque Guinle	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-14 14:38:28.304	2026-09-14 14:38:28.304
 3c3881b7-bd9c-4fe3-8c6c-26da4e51dcb8	Jorge Ferreira	21970331430	Insta	Pavuna	Rio de Janeiro	Rua Netuno 463 casa 5	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	ef88882c-b914-42e4-9da1-29ba33bdafa4	\N	2026-09-14 15:11:17.314	2026-09-14 15:11:17.314
@@ -1259,7 +1266,6 @@ bf4bdca4-aaf2-4667-aac4-03b7bda6c2cc	Francisco	22992528224	Buzios	Buzios	Buzios	
 04f8f9ec-1551-434b-b27c-00f9e77d9ca8	Lúcia Santos	22988579230	São Pedro da Aldeia	São Pedro da Aldeia	São Pedro da Aldeia	Rua Lourival Araújo de Mattos 261	\N	{Panfleto,Adesivo}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-18 16:56:21.138	2026-09-18 16:56:27.504
 ad42eae0-1404-4376-87cc-2723d02e9471	Fernando Almeida	21990950924	Nova Friburgo	Nova Friburgo	Nova Friburgo	Rua Joaquim da Rosa Pinheiro 7	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-18 16:58:12.889	2026-09-18 16:58:19.504
 7765846d-4f16-415d-aef3-88b42aa6950f	Neuzimar	5522981235994	Aperibé	Aperibé	Aperibé	Rua Francisco Henrique de Souza - Palmeiras	\N	{Adesivo,Panfleto}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-18 17:18:41.261	2026-09-18 17:18:46.952
-3064d437-00e2-496a-a6ab-1720e24d5d6e	Flávio Luz	24999963785	Paraty	Paraty	Paraty	Rua José Vieira Ramos 192 - Bairro de Fátima	\N	{Panfleto,Adesivo}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-18 18:09:24.833	2026-09-18 18:09:24.833
 5811a709-4c5f-4a98-9666-8046b379a41f	Maria de Lourdes	21988635488	Insta	Santa Rosa	Rio de Janeiro	Rua Dr. Mário Vianna, 486/901	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-18 22:50:38.467	2026-09-18 22:50:38.467
 a91453e3-872f-4072-846d-b55c4d5b8719	Paulo Roberto	21968672284	Botafogo	Botafogo	Rio de Janeiro	Rua Voluntários da Pátria, 98/307	XXX	{Adesivo,Panfleto,Bandeira}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-18 22:51:40.93	2026-09-18 22:51:40.93
 6d648d33-9c02-4817-b17e-e936e7db5e22	Beatriz	21974688629	Insta	Oswaldo Cruz	Rio de Janeiro	Rua Henrique Braga, 440	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-18 22:54:59.89	2026-09-18 22:54:59.89
@@ -1271,6 +1277,11 @@ f4501dec-1bbd-400e-8659-2d1938b02b5f	Angela	21967769666	Insta	Guaratiba	Rio de J
 eb857915-db14-46e3-9fdb-7da16e70a655	Márcio	21995216698	Insta	Santa Cruz	Rio de Janeiro	Estrada Aterrado do Leme, 1360. Bloco 15 - Apt, 202.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 22:58:45.538	2026-09-22 22:58:45.538
 e0b53963-e3ca-4dc6-9bb0-ec6e53c4ff9a	Luis Carlos	21991360201	Insta	Praça Seca	Rio de Janeiro	Rua Praça Seca, 26 - Apt, 201	Ao lado do Colégio Honduras	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 23:50:49.817	2026-09-22 23:50:49.817
 8ab9e68e-f081-47c2-9988-486f587d37fb	Renato da Silva	21970889494	Insta	Realengo	Rio de Janeiro	Rua Juscelino, 10.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (Quer material do Lindbergh).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-22 23:55:01.197	2026-09-22 23:55:01.197
+3064d437-00e2-496a-a6ab-1720e24d5d6e	Flávio Luz	24999963785	Paraty	Paraty	Paraty	Rua José Vieira Ramos 192 - Bairro de Fátima	\N	{Panfleto,Adesivo}	\N	1	\N	\N	DELIVERED	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-18 18:09:24.833	2026-09-23 13:12:49.787
+bfec7b1f-fe7e-40cd-bfd2-3001c8b0eeaf	Paulo Souza	21970472377	Insta	Santa Cruz	Rio de Janeiro	Rua Lopes de Moura, 75	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-23 21:38:27.027	2026-09-23 21:38:27.027
+8e2e8a94-5afb-48d0-a8f9-121e86bebfe3	João Carlos	21991901517	Insta	Vila da Penha	Rio de Janeiro	Rua Professor Paulo Aquiles, 26. Apt. 201.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (quer adesivo de carro).	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-23 22:06:54.798	2026-09-23 22:06:54.798
+60539d0d-540b-4a80-a2da-f4522e930c96	Pedro	21995859010	Insta	Acari	Rio de Janeiro	Rua Edgard Soutelo, 44.	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-23 23:31:27.26	2026-09-23 23:31:27.26
+653763ab-182a-41bd-9fa4-3d82ae171f43	Juciara	21979037140	Insta	Santíssimo	Rio de Janeiro	Rua Teixeira Campos, 102	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio (Contato Letícia)	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-23 21:37:04.028	2026-09-23 23:32:18.523
 \.
 
 
@@ -1414,6 +1425,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict bS03TMOuNAGPTvVyoph0hYBvy6SII4Kc6yb9B9KNfGWMTEYYj8O8QbvP8vv531Y
+-- \unrestrict TVCY1QEYbhKt0Rb4pZz1V5L4FkNuaap2VU0FpuTsFGJmqGPTgPXQ6mnIX2YiseP
 
 RESET ALL;
