@@ -4,10 +4,10 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict yVy5JagMqOgxm0IxTgPNGrjik1lrWj4Y8zHH4AjPV0HCorB2WZ4GB8aReH3rxwR
+-- \restrict itOyQIgdQg1EZn9qj1UKadsGuN1vcSmt3H40QqEvbEQ2EwfIYAKhHORR5hufY21
 
 -- Dumped from database version 17.6
--- Dumped by pg_dump version 17.6
+-- Dumped by pg_dump version 17.11
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -879,6 +879,7 @@ e227b6fc-9fed-45c0-b3a2-5f82450a71d1	CREATED	MATERIAL_REQUEST	fb97d455-21a8-4a30
 495b15e5-8086-4f12-88c2-e2674c67ab05	UPDATED	MATERIAL_REQUEST	f67c659b-438a-4818-930c-041852dfae2e	Pedido de material atualizado (Latif)	\N	908477be-b210-48f9-9c42-45690c4d220c	2026-09-28 17:26:50.151
 5b2b5758-b5fd-4ccc-9ecd-4ad4f2cb371a	CREATED	MATERIAL_REQUEST	601ad97a-0ed4-41a0-b0d6-17507c6717e4	Pedido de material criado (Netto)	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	2026-09-28 18:30:23.218
 88dfb41d-1a63-4ecd-aa5e-ecc45787688c	CREATED	MATERIAL_REQUEST	a9516949-b117-4930-a93a-2ea2d33ad771	Pedido de material criado (Nildes Ferreira)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-29 17:18:58.703
+af126e0d-efbe-43da-86c2-8a6f0ea41058	CREATED	MATERIAL_REQUEST	33f56430-2ea6-4822-9dd1-4c6909bf1b55	Pedido de material criado (leonardo)	\N	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	2026-09-30 23:47:38.166
 \.
 
 
@@ -1318,6 +1319,7 @@ a4216ea6-b5e7-46a0-931c-0205d57ffcb3	Kayo Ferreira	21988781360	Insta	Senador Cam
 845a14d2-1e48-480f-b50a-4291c7276d61	Maria (Nega) Sampaio	21993380242	Copacabana	Copacabana	Rio de Janeiro	Rua Bolívar 92	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	908477be-b210-48f9-9c42-45690c4d220c	\N	2026-09-28 13:56:34.044	2026-09-28 13:56:34.044
 601ad97a-0ed4-41a0-b0d6-17507c6717e4	Netto	5522992246917	Nova Friburgo	Jardim Califórnia	RJ	Rua Glória Mattos Pinheiro, nº 08	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	\N	0fdc3b09-573b-492e-ac19-0bccf7675328	\N	2026-09-28 18:30:23.186	2026-09-28 18:30:23.186
 a9516949-b117-4930-a93a-2ea2d33ad771	Nildes Ferreira	21981351361	Insta	São Cristóvão	Rio de Janeiro	Rua Francisco Eugenio, 176 - Casa 04	XXX	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	Entrega à domicílio.	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-29 17:18:58.656	2026-09-29 17:18:58.656
+33f56430-2ea6-4822-9dd1-4c6909bf1b55	leonardo	21975128930	CENTRO	XXX	Rio de Janeiro	XXX	\N	{Adesivo,Panfleto}	\N	1	\N	\N	PENDING	VEM RETIRAR	1814cb3a-5e52-4a39-bbb9-3c781f075d4f	\N	2026-09-30 23:47:38.108	2026-09-30 23:47:38.108
 \.
 
 
@@ -1461,6 +1463,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict yVy5JagMqOgxm0IxTgPNGrjik1lrWj4Y8zHH4AjPV0HCorB2WZ4GB8aReH3rxwR
+-- \unrestrict itOyQIgdQg1EZn9qj1UKadsGuN1vcSmt3H40QqEvbEQ2EwfIYAKhHORR5hufY21
 
 RESET ALL;
